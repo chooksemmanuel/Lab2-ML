@@ -14,7 +14,7 @@ This project implements a complete data pipeline for e-commerce transaction data
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/ml-data-preprocessing-lab.git
+git clone https://github.com/chooksemmanuel/ml-data-preprocessing-lab.git
 cd ml-data-preprocessing-lab
 
 # Create virtual environment
