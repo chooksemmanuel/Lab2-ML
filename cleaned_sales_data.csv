@@ -1,0 +1,551 @@
+order_id,order_date,customer_id,product,category,price,quantity,coupon_code,shipping_city,total_amount,is_cleaned,discount_percent,subtotal,discount_amount,year,month,month_name,day_of_week,quarter,days_since_purchase,is_high_value,order_size_category,revenue_category
+ORD000001,2024-12-08,CUST00001,Winter Jacket,Clothing,94.45,2,,Indianapolis,188.9,True,0,188.9,0.0,2024.0,12.0,December,Sunday,4.0,52.0,True,Medium,High
+ORD000002,2025-01-09,CUST00002,Knife Set,Home & Kitchen,55.97,3,,Philadelphia,167.91,True,0,167.91,0.0,2025.0,1.0,January,Thursday,1.0,20.0,True,Medium,High
+ORD000003,2024-11-20,CUST00003,Mechanical Keyboard,Electronics,90.64,5,,Las Vegas,453.2,True,0,453.2,0.0,2024.0,11.0,November,Wednesday,4.0,70.0,True,Large,High
+ORD000004,2024-02-25,CUST00004,Wireless Mouse,Electronics,28.66,2,,Seattle,57.32,True,0,57.32,0.0,2024.0,2.0,February,Sunday,1.0,339.0,True,Medium,Medium
+ORD000005,2024-09-08,CUST00005,Face Moisturizer,Health & Beauty,23.84,3,,San Diego,71.52,True,0,71.52,0.0,2024.0,9.0,September,Sunday,3.0,143.0,True,Medium,High
+ORD000006,2024-09-27,CUST00006,Fiction Bestseller,Books & Media,16.19,1,,Dallas,16.19,True,0,16.19,0.0,2024.0,9.0,September,Friday,3.0,124.0,False,Small,Low
+ORD000007,2024-03-12,CUST00007,Cutting Board,Home & Kitchen,23.43,1,,Miami,23.43,True,0,23.43,0.0,2024.0,3.0,March,Tuesday,1.0,323.0,False,Small,Low
+ORD000008,2024-12-09,CUST00008,Running Shoes,Clothing,83.84,1,,Raleigh,83.84,True,0,83.84,0.0,2024.0,12.0,December,Monday,4.0,51.0,True,Small,High
+ORD000009,2024-04-03,CUST00009,Food Container Set,Home & Kitchen,32.71,1,,Minneapolis,32.71,True,0,32.71,0.0,2024.0,4.0,April,Wednesday,2.0,301.0,False,Small,Low
+ORD000010,2024-02-25,CUST00010,Data Science Handbook,Books & Media,43.81,2,FREESHIP,Atlanta,87.62,True,0,87.62,0.0,2024.0,2.0,February,Sunday,1.0,339.0,True,Medium,High
+ORD000011,2025-01-15,CUST00011,Baseball Cap,Clothing,19.43,1,SAVE15,Austin,16.52,True,15,19.43,2.91,2025.0,1.0,January,Wednesday,1.0,14.0,False,Small,Low
+ORD000012,2024-07-03,CUST00012,Water Bottle,Home & Kitchen,15.5,1,WINTER20,Detroit,12.4,True,20,15.5,3.1,2024.0,7.0,July,Wednesday,3.0,210.0,False,Small,Low
+ORD000013,2024-02-12,CUST00013,Wireless Earbuds,Electronics,78.43,1,,San Diego,78.43,True,0,78.43,0.0,2024.0,2.0,February,Monday,1.0,352.0,True,Small,High
+ORD000014,2024-10-23,CUST00014,,Health & Beauty,27.33,4,,Philadelphia,109.32,True,0,109.32,0.0,2024.0,10.0,October,Wednesday,4.0,98.0,True,Large,High
+ORD000015,2024-09-04,CUST00015,Hair Dryer,Health & Beauty,37.23,1,,Detroit,37.23,True,0,37.23,0.0,2024.0,9.0,September,Wednesday,3.0,147.0,False,Small,Medium
+ORD000016,2024-10-02,CUST00016,Blender,Home & Kitchen,46.86,2,SAVE15,Indianapolis,79.66,True,15,93.72,14.06,2024.0,10.0,October,Wednesday,4.0,119.0,True,Medium,High
+ORD000017,2024-12-23,CUST00017,Water Bottle,Home & Kitchen,14.68,2,FLASH30,San Francisco,20.55,True,30,29.36,8.81,2024.0,12.0,December,Monday,4.0,37.0,False,Medium,Low
+ORD000018,2024-07-12,CUST00018,Lunch Box Set,Home & Kitchen,23.92,1,,San Jose,23.92,True,0,23.92,0.0,2024.0,7.0,July,Friday,3.0,201.0,False,Small,Low
+ORD000019,2024-03-24,CUST00019,Monitor Light,Electronics,32.58,1,FLASH30,San Antonio,22.81,True,30,32.58,9.77,2024.0,3.0,March,Sunday,1.0,311.0,False,Small,Low
+ORD000020,2024-02-07,CUST00020,Water Bottle,Home & Kitchen,13.98,1,,Las Vegas,13.98,True,0,13.98,0.0,2024.0,2.0,February,Wednesday,1.0,357.0,False,Small,Low
+ORD000021,2024-03-21,CUST00021,Cotton T-Shirt,Clothing,21.58,1,SAVE15,Seattle,18.34,True,15,21.58,3.24,2024.0,3.0,March,Thursday,1.0,314.0,False,Small,Low
+ORD000022,2024-04-15,CUST00022,USB-C Cable,Electronics,13.6,1,,Salt Lake City,13.6,True,0,13.6,0.0,2024.0,4.0,April,Monday,2.0,289.0,False,Small,Low
+ORD000023,2024-04-27,CUST00023,Journal Notebook,Books & Media,12.48,2,SAVE10,Orlando,22.46,True,10,24.96,2.5,2024.0,4.0,April,Saturday,2.0,277.0,False,Medium,Low
+ORD000024,2024-10-16,CUST00024,Smartphone Case,Electronics,26.87,1,,Dallas,26.87,True,0,26.87,0.0,2024.0,10.0,October,Wednesday,4.0,105.0,False,Small,Low
+ORD000025,2024-04-22,CUST00025,Python Programming Book,Books & Media,45.17,3,,Raleigh,135.51,True,0,135.51,0.0,2024.0,4.0,April,Monday,2.0,282.0,True,Medium,High
+ORD000026,2024-06-17,CUST00026,Journal Notebook,Books & Media,,1,VIP40,Orlando,0.0,True,40,0.0,0.0,2024.0,6.0,June,Monday,2.0,226.0,False,Small,Low
+ORD000027,2024-08-23,CUST00027,Electric Toothbrush,Health & Beauty,49.64,1,HOLIDAY15,Salt Lake City,42.19,True,15,49.64,7.45,2024.0,8.0,August,Friday,3.0,159.0,False,Small,Medium
+ORD000028,2024-05-15,CUST00028,Kitchen Scale,Home & Kitchen,18.58,1,,Minneapolis,18.58,True,0,18.58,0.0,2024.0,5.0,May,Wednesday,2.0,259.0,False,Small,Low
+ORD000029,2024-12-16,CUST00029,Wireless Mouse,Electronics,28.3,3,,Miami,84.9,True,0,84.9,0.0,2024.0,12.0,December,Monday,4.0,44.0,True,Medium,High
+ORD000030,2024-08-29,CUST00030,Sunscreen SPF50,Health & Beauty,15.98,2,,Raleigh,31.96,True,0,31.96,0.0,2024.0,8.0,August,Thursday,3.0,153.0,False,Medium,Low
+ORD000031,2024-08-28,CUST00031,Winter Jacket,Clothing,95.42,1,,Phoenix,95.42,True,0,95.42,0.0,2024.0,8.0,August,Wednesday,3.0,154.0,True,Small,High
+ORD000032,2024-08-18,CUST00032,Vitamin Supplements,Health & Beauty,26.77,2,,New York,53.54,True,0,53.54,0.0,2024.0,8.0,August,Sunday,3.0,164.0,True,Medium,Medium
+ORD000033,2024-05-07,CUST00033,Running Shoes,Clothing,89.73,1,,Salt Lake City,89.73,True,0,89.73,0.0,2024.0,5.0,May,Tuesday,2.0,267.0,True,Small,High
+ORD000034,2024-01-29,CUST00034,Fiction Bestseller,Books & Media,18.24,1,FLASH30,San Antonio,12.77,True,30,18.24,5.47,2024.0,1.0,January,Monday,1.0,366.0,False,Small,Low
+ORD000035,2024-10-18,CUST00035,Winter Jacket,Clothing,102.99,2,,Nashville,205.98,True,0,205.98,0.0,2024.0,10.0,October,Friday,4.0,103.0,True,Medium,High
+ORD000036,2024-09-10,CUST00036,Sneakers,Clothing,81.68,4,,Nashville,326.72,True,0,326.72,0.0,2024.0,9.0,September,Tuesday,3.0,141.0,True,Large,High
+ORD000037,2024-04-26,CUST00037,Blender,Home & Kitchen,47.8,1,,Salt Lake City,47.8,True,0,47.8,0.0,2024.0,4.0,April,Friday,2.0,278.0,False,Small,Medium
+ORD000038,2024-08-18,CUST00038,Wireless Mouse,Electronics,32.75,2,,Charlotte,65.5,True,0,65.5,0.0,2024.0,8.0,August,Sunday,3.0,164.0,True,Medium,Medium
+ORD000039,2024-11-14,,Blender,Home & Kitchen,43.96,1,,Detroit,43.96,True,0,43.96,0.0,2024.0,11.0,November,Thursday,4.0,76.0,False,Small,Medium
+ORD000040,2024-11-16,CUST00040,Leather Belt,Clothing,31.56,4,LOYALTY25,Boston,94.68,True,25,126.24,31.56,2024.0,11.0,November,Saturday,4.0,74.0,True,Large,High
+ORD000041,2025-01-04,CUST00041,Electric Toothbrush,Health & Beauty,49.72,2,,Raleigh,99.44,True,0,99.44,0.0,2025.0,1.0,January,Saturday,1.0,25.0,True,Medium,High
+ORD000042,2025-01-03,CUST00042,,Home & Kitchen,52.53,2,,Minneapolis,105.06,True,0,105.06,0.0,2025.0,1.0,January,Friday,1.0,26.0,True,Medium,High
+ORD000043,2024-02-12,CUST00043,Knife Set,Home & Kitchen,50.62,1,HOLIDAY15,Miami,43.03,True,15,50.62,7.59,2024.0,2.0,February,Monday,1.0,352.0,False,Small,Medium
+ORD000044,2025-01-01,CUST00044,Electric Kettle,Home & Kitchen,38.13,1,SUMMER10,Nashville,34.32,True,10,38.13,3.81,2025.0,1.0,January,Wednesday,1.0,28.0,False,Small,Medium
+ORD000045,2024-08-22,CUST00045,Vitamin Supplements,Health & Beauty,25.54,2,,San Antonio,51.08,True,0,51.08,0.0,2024.0,8.0,August,Thursday,3.0,160.0,True,Medium,Medium
+ORD000046,2024-09-12,CUST00046,Water Bottle,Home & Kitchen,15.61,2,,Orlando,31.22,True,0,31.22,0.0,2024.0,9.0,September,Thursday,3.0,139.0,False,Medium,Low
+ORD000047,2024-04-01,CUST00047,Blender,Home & Kitchen,41.94,2,,Kansas City,83.88,True,0,83.88,0.0,2024.0,4.0,April,Monday,2.0,303.0,True,Medium,High
+ORD000048,2024-02-26,,Journal Notebook,Books & Media,13.26,1,FREESHIP,Kansas City,13.26,True,0,13.26,0.0,2024.0,2.0,February,Monday,1.0,338.0,False,Small,Low
+ORD000049,2024-10-07,CUST00049,Sneakers,Clothing,87.94,1,,Chicago,87.94,True,0,87.94,0.0,2024.0,10.0,October,Monday,4.0,114.0,True,Small,High
+ORD000050,2024-08-08,CUST00050,Vitamin Supplements,Health & Beauty,24.76,1,,Nashville,24.76,True,0,24.76,0.0,2024.0,8.0,August,Thursday,3.0,174.0,False,Small,Low
+ORD000051,2024-09-27,CUST00051,Bluetooth Speaker,Electronics,47.66,1,LOYALTY25,Atlanta,35.74,True,25,47.66,11.91,2024.0,9.0,September,Friday,3.0,124.0,False,Small,Medium
+ORD000052,2024-03-14,CUST00052,USB-C Cable,Electronics,12.99,2,,Dallas,25.98,True,0,25.98,0.0,2024.0,3.0,March,Thursday,1.0,321.0,False,Medium,Low
+ORD000053,2024-03-25,CUST00053,Running Shoes,Clothing,87.11,2,SAVE10,San Jose,156.8,True,10,174.22,17.42,2024.0,3.0,March,Monday,1.0,310.0,True,Medium,High
+ORD000054,2024-10-20,CUST00054,Winter Jacket,Clothing,109.6,1,,Columbus,109.6,True,0,109.6,0.0,2024.0,10.0,October,Sunday,4.0,101.0,True,Small,High
+ORD000055,2024-04-02,CUST00055,USB-C Cable,Electronics,13.0,2,,Columbus,26.0,True,0,26.0,0.0,2024.0,4.0,April,Tuesday,2.0,302.0,False,Medium,Low
+ORD000056,2024-05-30,CUST00056,Data Science Handbook,Books & Media,42.8,3,,Denver,128.4,True,0,128.4,0.0,2024.0,5.0,May,Thursday,2.0,244.0,True,Medium,High
+ORD000057,2024-06-11,CUST00057,Wireless Mouse,Electronics,32.86,2,,Houston,65.72,True,0,65.72,0.0,2024.0,6.0,June,Tuesday,2.0,232.0,True,Medium,Medium
+ORD000058,2024-10-13,CUST00058,Air Fryer,Home & Kitchen,,2,,Orlando,0.0,True,0,0.0,0.0,2024.0,10.0,October,Sunday,4.0,108.0,False,Medium,Low
+ORD000059,2024-06-11,CUST00059,Blender,Home & Kitchen,45.45,1,,Tampa,45.45,True,0,45.45,0.0,2024.0,6.0,June,Tuesday,2.0,232.0,False,Small,Medium
+ORD000060,2024-07-17,CUST00060,Cotton T-Shirt,Clothing,21.9,2,WINTER20,Columbus,35.04,True,20,43.8,8.76,2024.0,7.0,July,Wednesday,3.0,196.0,False,Medium,Medium
+ORD000061,2024-11-21,CUST00061,Kitchen Scale,Home & Kitchen,20.47,2,,Orlando,40.94,True,0,40.94,0.0,2024.0,11.0,November,Thursday,4.0,69.0,False,Medium,Medium
+ORD000062,2024-03-23,CUST00005,Running Shoes,Clothing,84.15,1,,Seattle,84.15,True,0,84.15,0.0,2024.0,3.0,March,Saturday,1.0,312.0,True,Small,High
+ORD000063,2024-07-07,CUST00063,Data Science Handbook,Books & Media,37.12,4,,Raleigh,148.48,True,0,148.48,0.0,2024.0,7.0,July,Sunday,3.0,206.0,True,Large,High
+ORD000064,2024-07-22,CUST00064,Casual Dress,Clothing,58.56,2,,Orlando,117.12,True,0,117.12,0.0,2024.0,7.0,July,Monday,3.0,191.0,True,Medium,High
+ORD000065,2025-01-08,CUST00065,Data Science Handbook,Books & Media,37.11,4,,Atlanta,148.44,True,0,148.44,0.0,2025.0,1.0,January,Wednesday,1.0,21.0,True,Large,High
+ORD000066,2024-11-11,CUST00066,Cutting Board,Home & Kitchen,23.7,3,,Dallas,71.1,True,0,71.1,0.0,2024.0,11.0,November,Monday,4.0,79.0,True,Medium,High
+ORD000067,2024-12-11,CUST00067,Self-Help Book,Books & Media,14.06,1,,Miami,14.06,True,0,14.06,0.0,2024.0,12.0,December,Wednesday,4.0,49.0,False,Small,Low
+ORD000068,2024-04-30,CUST00013,Face Moisturizer,Health & Beauty,23.39,3,,Phoenix,70.17,True,0,70.17,0.0,2024.0,4.0,April,Tuesday,2.0,274.0,True,Medium,Medium
+ORD000069,2024-01-29,CUST00006,Electric Kettle,Home & Kitchen,33.76,1,LOYALTY25,Boston,25.32,True,25,33.76,8.44,2024.0,1.0,January,Monday,1.0,366.0,False,Small,Low
+ORD000070,2024-02-07,CUST00070,Shampoo Set,Health & Beauty,18.83,4,HOLIDAY15,Columbus,64.02,True,15,75.32,11.3,2024.0,2.0,February,Wednesday,1.0,357.0,True,Large,Medium
+ORD000071,2024-06-04,CUST00071,Massage Gun,Health & Beauty,83.38,1,,San Jose,83.38,True,0,83.38,0.0,2024.0,6.0,June,Tuesday,2.0,239.0,True,Small,High
+ORD000072,2024-05-05,CUST00072,Cutting Board,Home & Kitchen,22.25,1,,Houston,22.25,True,0,22.25,0.0,2024.0,5.0,May,Sunday,2.0,269.0,False,Small,Low
+ORD000073,2024-08-24,CUST00012,Sneakers,Clothing,80.89,2,,Austin,161.78,True,0,161.78,0.0,2024.0,8.0,August,Saturday,3.0,158.0,True,Medium,High
+ORD000074,2024-06-23,CUST00074,Massage Gun,Health & Beauty,75.39,2,SAVE15,Seattle,128.16,True,15,150.78,22.62,2024.0,6.0,June,Sunday,2.0,220.0,True,Medium,High
+ORD000075,2024-11-25,CUST00075,Vitamin Supplements,Health & Beauty,25.53,2,,New York,51.06,True,0,51.06,0.0,2024.0,11.0,November,Monday,4.0,65.0,True,Medium,Medium
+ORD000076,2024-03-28,CUST00076,Smartphone Case,Electronics,26.22,1,,Austin,26.22,True,0,26.22,0.0,2024.0,3.0,March,Thursday,1.0,307.0,False,Small,Low
+ORD000077,2024-02-10,CUST00077,Baseball Cap,Clothing,18.57,1,,Dallas,18.57,True,0,18.57,0.0,2024.0,2.0,February,Saturday,1.0,354.0,False,Small,Low
+ORD000078,2024-05-07,,Vitamin Supplements,Health & Beauty,22.53,1,SAVE20,Nashville,18.02,True,20,22.53,4.51,2024.0,5.0,May,Tuesday,2.0,267.0,False,Small,Low
+ORD000079,2024-12-23,CUST00079,Wireless Mouse,Electronics,32.16,1,SAVE15,Columbus,27.34,True,15,32.16,4.82,2024.0,12.0,December,Monday,4.0,37.0,False,Small,Low
+ORD000080,2024-11-27,CUST00080,Denim Jeans,Clothing,49.36,1,,Denver,49.36,True,0,49.36,0.0,2024.0,11.0,November,Wednesday,4.0,63.0,True,Small,Medium
+ORD000081,2024-10-03,CUST00012,Sneakers,Clothing,75.77,1,WINTER20,Phoenix,60.62,True,20,75.77,15.15,2024.0,10.0,October,Thursday,4.0,118.0,True,Small,Medium
+ORD000082,2024-10-31,CUST00082,Electric Toothbrush,Health & Beauty,53.63,2,SAVE15,Atlanta,91.17,True,15,107.26,16.09,2024.0,10.0,October,Thursday,4.0,90.0,True,Medium,High
+ORD000083,2024-06-10,CUST00003,First Aid Kit,Health & Beauty,30.03,1,,Salt Lake City,30.03,True,0,30.03,0.0,2024.0,6.0,June,Monday,2.0,233.0,False,Small,Low
+ORD000084,2024-09-02,CUST00011,Monitor Light,Electronics,36.01,1,,Miami,36.01,True,0,36.01,0.0,2024.0,9.0,September,Monday,3.0,149.0,False,Small,Medium
+ORD000085,2024-12-04,CUST00085,Webcam HD,Electronics,64.31,2,LOYALTY25,Columbus,96.47,True,25,128.62,32.16,2024.0,12.0,December,Wednesday,4.0,56.0,True,Medium,High
+ORD000086,2025-01-07,CUST00086,Electric Kettle,Home & Kitchen,36.45,1,,Tampa,36.45,True,0,36.45,0.0,2025.0,1.0,January,Tuesday,1.0,22.0,False,Small,Medium
+ORD000087,2024-08-19,CUST00087,Webcam HD,Electronics,67.31,4,,Nashville,269.24,True,0,269.24,0.0,2024.0,8.0,August,Monday,3.0,163.0,True,Large,High
+ORD000088,2024-10-11,CUST00011,Resistance Bands,Health & Beauty,20.38,1,LOYALTY25,Nashville,15.29,True,25,20.38,5.09,2024.0,10.0,October,Friday,4.0,110.0,False,Small,Low
+ORD000089,2024-09-01,CUST00008,Baseball Cap,Clothing,19.44,1,,Detroit,19.44,True,0,19.44,0.0,2024.0,9.0,September,Sunday,3.0,150.0,False,Small,Low
+ORD000090,2024-03-26,CUST00090,Mechanical Keyboard,Electronics,96.72,2,SUMMER10,Columbus,174.1,True,10,193.44,19.34,2024.0,3.0,March,Tuesday,1.0,309.0,True,Medium,High
+ORD000091,2024-09-02,CUST00091,Wireless Mouse,Electronics,27.31,2,SAVE15,Seattle,46.43,True,15,54.62,8.19,2024.0,9.0,September,Monday,3.0,149.0,False,Medium,Medium
+ORD000092,2024-09-13,CUST00092,Knife Set,Home & Kitchen,54.42,1,WELCOME5,San Antonio,51.7,True,5,54.42,2.72,2024.0,9.0,September,Friday,3.0,138.0,True,Small,Medium
+ORD000093,2024-08-17,CUST00093,Hair Dryer,Health & Beauty,36.49,3,,Las Vegas,109.47,True,0,109.47,0.0,2024.0,8.0,August,Saturday,3.0,165.0,True,Medium,High
+ORD000094,2024-12-21,CUST00094,Electric Toothbrush,Health & Beauty,45.67,2,,Portland,91.34,True,0,91.34,0.0,2024.0,12.0,December,Saturday,4.0,39.0,True,Medium,High
+ORD000095,2024-07-10,CUST00004,Electric Toothbrush,Health & Beauty,46.32,1,,Tampa,46.32,True,0,46.32,0.0,2024.0,7.0,July,Wednesday,3.0,203.0,False,Small,Medium
+ORD000096,2024-09-06,CUST00007,Bluetooth Speaker,Electronics,53.85,1,,Denver,53.85,True,0,53.85,0.0,2024.0,9.0,September,Friday,3.0,145.0,True,Small,Medium
+ORD000097,2024-07-03,CUST00012,Art Supplies Set,Books & Media,36.69,3,,Philadelphia,110.07,True,0,110.07,0.0,2024.0,7.0,July,Wednesday,3.0,210.0,True,Medium,High
+ORD000098,2024-04-17,CUST00098,Denim Jeans,Clothing,45.79,2,,Minneapolis,91.58,True,0,91.58,0.0,2024.0,4.0,April,Wednesday,2.0,287.0,True,Medium,High
+ORD000099,2024-12-08,CUST00099,Smartphone Case,Electronics,25.85,1,,Raleigh,25.85,True,0,25.85,0.0,2024.0,12.0,December,Sunday,4.0,52.0,False,Small,Low
+ORD000100,2024-07-21,CUST00100,Vitamin Supplements,Health & Beauty,25.52,2,,Seattle,51.04,True,0,51.04,0.0,2024.0,7.0,July,Sunday,3.0,192.0,True,Medium,Medium
+ORD000101,2024-04-20,CUST00101,Puzzle 1000pc,Books & Media,18.46,2,,San Antonio,36.92,True,0,36.92,0.0,2024.0,4.0,April,Saturday,2.0,284.0,False,Medium,Medium
+ORD000102,2024-08-30,CUST00102,Sports Shorts,Clothing,31.25,2,WELCOME5,Columbus,59.38,True,5,62.5,3.12,2024.0,8.0,August,Friday,3.0,152.0,True,Medium,Medium
+ORD000103,2024-05-16,CUST00103,Webcam HD,Electronics,70.75,1,,Las Vegas,70.75,True,0,70.75,0.0,2024.0,5.0,May,Thursday,2.0,258.0,True,Small,Medium
+ORD000104,2024-11-05,CUST00011,Mechanical Keyboard,Electronics,89.38,2,,Las Vegas,178.76,True,0,178.76,0.0,2024.0,11.0,November,Tuesday,4.0,85.0,True,Medium,High
+ORD000105,2024-04-09,CUST00008,Leather Belt,Clothing,37.75,3,FREESHIP,Las Vegas,113.25,True,0,113.25,0.0,2024.0,4.0,April,Tuesday,2.0,295.0,True,Medium,High
+ORD000106,2024-11-30,CUST00106,Electric Toothbrush,Health & Beauty,53.41,2,,New York,106.82,True,0,106.82,0.0,2024.0,11.0,November,Saturday,4.0,60.0,True,Medium,High
+ORD000107,2024-12-02,CUST00107,Baseball Cap,Clothing,17.07,3,,Miami,51.21,True,0,51.21,0.0,2024.0,12.0,December,Monday,4.0,58.0,True,Medium,Medium
+ORD000108,2024-07-10,CUST00108,Lunch Box Set,Home & Kitchen,25.06,1,SAVE15,Dallas,21.3,True,15,25.06,3.76,2024.0,7.0,July,Wednesday,3.0,203.0,False,Small,Low
+ORD000109,2024-07-01,CUST00109,Winter Jacket,Clothing,105.25,1,,Atlanta,105.25,True,0,105.25,0.0,2024.0,7.0,July,Monday,3.0,212.0,True,Small,High
+ORD000110,2024-06-08,CUST00110,Self-Help Book,Books & Media,15.1,3,,Indianapolis,45.3,True,0,45.3,0.0,2024.0,6.0,June,Saturday,2.0,235.0,False,Medium,Medium
+ORD000111,2024-07-31,CUST00111,Shampoo Set,Health & Beauty,20.23,2,,Phoenix,40.46,True,0,40.46,0.0,2024.0,7.0,July,Wednesday,3.0,182.0,False,Medium,Medium
+ORD000112,2024-09-28,CUST00002,Lunch Box Set,Home & Kitchen,26.51,2,SUMMER10,Phoenix,47.72,True,10,53.02,5.3,2024.0,9.0,September,Saturday,3.0,123.0,False,Medium,Medium
+ORD000113,2024-10-14,CUST00113,Shampoo Set,Health & Beauty,18.89,1,,Houston,18.89,True,0,18.89,0.0,2024.0,10.0,October,Monday,4.0,107.0,False,Small,Low
+ORD000114,2024-11-07,CUST00114,Power Bank,Electronics,44.81,2,,Nashville,89.62,True,0,89.62,0.0,2024.0,11.0,November,Thursday,4.0,83.0,True,Medium,High
+ORD000115,2024-04-02,CUST00115,Cutting Board,Home & Kitchen,23.0,2,,Columbus,46.0,True,0,46.0,0.0,2024.0,4.0,April,Tuesday,2.0,302.0,False,Medium,Medium
+ORD000116,2024-04-13,CUST00116,Electric Toothbrush,Health & Beauty,50.45,2,,Orlando,100.9,True,0,100.9,0.0,2024.0,4.0,April,Saturday,2.0,291.0,True,Medium,High
+ORD000117,2024-06-16,CUST00117,Knife Set,Home & Kitchen,52.98,1,,Salt Lake City,52.98,True,0,52.98,0.0,2024.0,6.0,June,Sunday,2.0,227.0,True,Small,Medium
+ORD000118,2024-03-30,CUST00010,Webcam HD,Electronics,75.93,2,,San Antonio,151.86,True,0,151.86,0.0,2024.0,3.0,March,Saturday,1.0,305.0,True,Medium,High
+ORD000119,2024-12-23,CUST00119,Kitchen Scale,Home & Kitchen,18.2,1,,Houston,18.2,True,0,18.2,0.0,2024.0,12.0,December,Monday,4.0,37.0,False,Small,Low
+ORD000120,2024-12-14,CUST00010,Wool Sweater,Clothing,56.59,3,WINTER20,San Diego,135.82,True,20,169.77,33.95,2024.0,12.0,December,Saturday,4.0,46.0,True,Medium,High
+ORD000121,2024-08-06,CUST00121,Water Bottle,Home & Kitchen,16.12,1,,Houston,16.12,True,0,16.12,0.0,2024.0,8.0,August,Tuesday,3.0,176.0,False,Small,Low
+ORD000122,2024-06-03,CUST00004,Sneakers,Clothing,83.69,2,,New York,167.38,True,0,167.38,0.0,2024.0,6.0,June,Monday,2.0,240.0,True,Medium,High
+ORD000123,2024-10-05,CUST00123,Data Science Handbook,Books & Media,37.47,1,,San Diego,37.47,True,0,37.47,0.0,2024.0,10.0,October,Saturday,4.0,116.0,False,Small,Medium
+ORD000124,2024-07-18,CUST00124,Smartphone Case,Electronics,24.82,1,,San Francisco,24.82,True,0,24.82,0.0,2024.0,7.0,July,Thursday,3.0,195.0,False,Small,Low
+ORD000125,2024-03-24,CUST00125,Audiobook Subscription,Books & Media,9.74,2,,Nashville,19.48,True,0,19.48,0.0,2024.0,3.0,March,Sunday,1.0,311.0,False,Medium,Low
+ORD000126,2025-01-10,CUST00126,Yoga Mat,Health & Beauty,27.36,2,,Detroit,54.72,True,0,54.72,0.0,2025.0,1.0,January,Friday,1.0,19.0,True,Medium,Medium
+ORD000127,2024-08-31,CUST00127,Fiction Bestseller,Books & Media,17.04,1,HOLIDAY15,Orlando,14.48,True,15,17.04,2.56,2024.0,8.0,August,Saturday,3.0,151.0,False,Small,Low
+ORD000128,2024-02-17,CUST00128,Smartphone Case,Electronics,27.42,1,SAVE20,Nashville,21.94,True,20,27.42,5.48,2024.0,2.0,February,Saturday,1.0,347.0,False,Small,Low
+ORD000129,2024-07-27,CUST00129,Resistance Bands,Health & Beauty,20.6,1,SUMMER10,Denver,18.54,True,10,20.6,2.06,2024.0,7.0,July,Saturday,3.0,186.0,False,Small,Low
+ORD000130,2024-10-14,CUST00130,,Home & Kitchen,19.83,1,LOYALTY25,Nashville,14.87,True,25,19.83,4.96,2024.0,10.0,October,Monday,4.0,107.0,False,Small,Low
+ORD000131,2024-02-02,CUST00131,Bluetooth Speaker,Electronics,52.39,1,SAVE25,Nashville,39.29,True,25,52.39,13.1,2024.0,2.0,February,Friday,1.0,362.0,False,Small,Medium
+ORD000132,2024-12-25,CUST00132,Water Bottle,Home & Kitchen,16.12,5,,Boston,80.6,True,0,80.6,0.0,2024.0,12.0,December,Wednesday,4.0,35.0,True,Large,High
+ORD000133,2024-07-10,CUST00133,Puzzle 1000pc,Books & Media,19.27,1,VIP40,Philadelphia,11.56,True,40,19.27,7.71,2024.0,7.0,July,Wednesday,3.0,203.0,False,Small,Low
+ORD000134,2024-08-16,CUST00134,Cutting Board,Home & Kitchen,21.81,1,,San Francisco,21.81,True,0,21.81,0.0,2024.0,8.0,August,Friday,3.0,166.0,False,Small,Low
+ORD000135,2024-02-22,CUST00025,Massage Gun,Health & Beauty,75.46,1,,San Jose,75.46,True,0,75.46,0.0,2024.0,2.0,February,Thursday,1.0,342.0,True,Small,High
+ORD000136,2024-11-20,CUST00136,Cookbook,Books & Media,30.3,2,,Las Vegas,60.6,True,0,60.6,0.0,2024.0,11.0,November,Wednesday,4.0,70.0,True,Medium,Medium
+ORD000137,2024-06-27,CUST00137,Sports Shorts,Clothing,29.47,2,SAVE20,New York,47.15,True,20,58.94,11.79,2024.0,6.0,June,Thursday,2.0,216.0,False,Medium,Medium
+ORD000138,2024-09-27,CUST00138,Wool Sweater,Clothing,57.89,1,,Raleigh,57.89,True,0,57.89,0.0,2024.0,9.0,September,Friday,3.0,124.0,True,Small,Medium
+ORD000139,2024-12-09,CUST00139,,Health & Beauty,26.68,1,,Los Angeles,26.68,True,0,26.68,0.0,2024.0,12.0,December,Monday,4.0,51.0,False,Small,Low
+ORD000140,2024-11-27,CUST00140,Hair Dryer,Health & Beauty,41.26,1,,Boston,41.26,True,0,41.26,0.0,2024.0,11.0,November,Wednesday,4.0,63.0,False,Small,Medium
+ORD000141,2024-04-16,CUST00004,Resistance Bands,Health & Beauty,18.95,2,FLASH30,Dallas,26.53,True,30,37.9,11.37,2024.0,4.0,April,Tuesday,2.0,288.0,False,Medium,Low
+ORD000142,2024-02-26,CUST00142,Smartphone Case,Electronics,24.52,1,,Tampa,24.52,True,0,24.52,0.0,2024.0,2.0,February,Monday,1.0,338.0,False,Small,Low
+ORD000143,2024-10-12,CUST00143,Kitchen Scale,Home & Kitchen,21.59,2,,Dallas,43.18,True,0,43.18,0.0,2024.0,10.0,October,Saturday,4.0,109.0,False,Medium,Medium
+ORD000144,2024-05-01,CUST00144,Data Science Handbook,Books & Media,38.38,2,,Columbus,76.76,True,0,76.76,0.0,2024.0,5.0,May,Wednesday,2.0,273.0,True,Medium,High
+ORD000145,2024-07-11,CUST00014,Blender,Home & Kitchen,44.52,2,,Denver,89.04,True,0,89.04,0.0,2024.0,7.0,July,Thursday,3.0,202.0,True,Medium,High
+ORD000146,2024-04-20,CUST00146,Data Science Handbook,Books & Media,42.17,1,SAVE15,Chicago,35.84,True,15,42.17,6.33,2024.0,4.0,April,Saturday,2.0,284.0,False,Small,Medium
+ORD000147,,CUST00147,Denim Jeans,Clothing,46.32,1,,Las Vegas,46.32,True,0,46.32,0.0,,,,,,,False,Small,Medium
+ORD000148,2024-08-14,CUST00148,Monitor Light,Electronics,37.83,5,,Philadelphia,189.15,True,0,189.15,0.0,2024.0,8.0,August,Wednesday,3.0,168.0,True,Large,High
+ORD000149,2024-02-24,CUST00149,Knife Set,Home & Kitchen,56.02,1,WELCOME5,New York,53.22,True,5,56.02,2.8,2024.0,2.0,February,Saturday,1.0,340.0,True,Small,Medium
+ORD000150,2024-11-15,CUST00011,Face Moisturizer,Health & Beauty,22.89,1,,Austin,22.89,True,0,22.89,0.0,2024.0,11.0,November,Friday,4.0,75.0,False,Small,Low
+ORD000151,2024-03-14,CUST00151,Electric Kettle,Home & Kitchen,38.47,1,,New York,38.47,True,0,38.47,0.0,2024.0,3.0,March,Thursday,1.0,321.0,False,Small,Medium
+ORD000152,2024-08-12,CUST00152,Water Bottle,Home & Kitchen,14.22,2,,Salt Lake City,28.44,True,0,28.44,0.0,2024.0,8.0,August,Monday,3.0,170.0,False,Medium,Low
+ORD000153,2024-02-03,CUST00153,Leather Belt,Clothing,35.65,3,SAVE25,Orlando,80.21,True,25,106.95,26.74,2024.0,2.0,February,Saturday,1.0,361.0,True,Medium,High
+ORD000154,2024-08-23,CUST00004,Winter Jacket,Clothing,100.2,2,,Detroit,200.4,True,0,200.4,0.0,2024.0,8.0,August,Friday,3.0,159.0,True,Medium,High
+ORD000155,2024-06-15,CUST00155,Smartphone Case,Electronics,26.65,2,,Austin,53.3,True,0,53.3,0.0,2024.0,6.0,June,Saturday,2.0,228.0,True,Medium,Medium
+ORD000156,2025-01-13,CUST00028,Denim Jeans,Clothing,51.76,1,,San Diego,51.76,True,0,51.76,0.0,2025.0,1.0,January,Monday,1.0,16.0,True,Small,Medium
+ORD000157,2024-12-17,CUST00157,Power Bank,Electronics,48.44,1,,New York,48.44,True,0,48.44,0.0,2024.0,12.0,December,Tuesday,4.0,43.0,False,Small,Medium
+ORD000158,2024-06-30,CUST00004,Baseball Cap,Clothing,18.09,2,,Minneapolis,36.18,True,0,36.18,0.0,2024.0,6.0,June,Sunday,2.0,213.0,False,Medium,Medium
+ORD000159,2024-11-13,CUST00005,Denim Jeans,Clothing,47.38,1,,Phoenix,47.38,True,0,47.38,0.0,2024.0,11.0,November,Wednesday,4.0,77.0,False,Small,Medium
+ORD000160,2024-04-13,CUST00160,Self-Help Book,Books & Media,13.91,1,,Los Angeles,13.91,True,0,13.91,0.0,2024.0,4.0,April,Saturday,2.0,291.0,False,Small,Low
+ORD000161,2024-09-23,CUST00161,Board Game,Books & Media,27.99,2,,San Diego,55.98,True,0,55.98,0.0,2024.0,9.0,September,Monday,3.0,128.0,True,Medium,Medium
+ORD000162,2024-03-13,CUST00162,Leather Belt,Clothing,37.25,1,,Los Angeles,37.25,True,0,37.25,0.0,2024.0,3.0,March,Wednesday,1.0,322.0,False,Small,Medium
+ORD000163,2024-02-01,CUST00163,Denim Jeans,Clothing,49.38,5,,San Diego,246.9,True,0,246.9,0.0,2024.0,2.0,February,Thursday,1.0,363.0,True,Large,High
+ORD000164,2024-04-30,CUST00164,Electric Toothbrush,Health & Beauty,50.31,2,LOYALTY25,San Jose,75.47,True,25,100.62,25.16,2024.0,4.0,April,Tuesday,2.0,274.0,True,Medium,High
+ORD000165,2024-02-15,CUST00165,Air Fryer,Home & Kitchen,85.48,2,,Nashville,170.96,True,0,170.96,0.0,2024.0,2.0,February,Thursday,1.0,349.0,True,Medium,High
+ORD000166,2024-03-03,CUST00166,Sports Shorts,Clothing,29.72,1,,Columbus,29.72,True,0,29.72,0.0,2024.0,3.0,March,Sunday,1.0,332.0,False,Small,Low
+ORD000167,2024-05-06,CUST00167,Knife Set,Home & Kitchen,52.44,3,,Detroit,157.32,True,0,157.32,0.0,2024.0,5.0,May,Monday,2.0,268.0,True,Medium,High
+ORD000168,2024-01-24,CUST00011,Board Game,Books & Media,27.0,4,LOYALTY25,San Francisco,81.0,True,25,108.0,27.0,2024.0,1.0,January,Wednesday,1.0,371.0,True,Large,High
+ORD000169,2024-12-13,CUST00026,Winter Jacket,Clothing,98.57,1,SAVE25,Atlanta,73.93,True,25,98.57,24.64,2024.0,12.0,December,Friday,4.0,47.0,True,Small,High
+ORD000170,2025-01-05,CUST00005,Cutting Board,Home & Kitchen,21.1,3,FLASH30,Indianapolis,44.31,True,30,63.3,18.99,2025.0,1.0,January,Sunday,1.0,24.0,False,Medium,Medium
+ORD000171,2024-11-23,CUST00171,Journal Notebook,Books & Media,13.57,2,VIP40,Minneapolis,16.28,True,40,27.14,10.86,2024.0,11.0,November,Saturday,4.0,67.0,False,Medium,Low
+ORD000172,2024-06-25,CUST00172,Water Bottle,Home & Kitchen,15.42,1,,Raleigh,15.42,True,0,15.42,0.0,2024.0,6.0,June,Tuesday,2.0,218.0,False,Small,Low
+ORD000173,2024-08-03,CUST00004,Knife Set,Home & Kitchen,53.73,1,,Chicago,53.73,True,0,53.73,0.0,2024.0,8.0,August,Saturday,3.0,179.0,True,Small,Medium
+ORD000174,2024-12-30,CUST00031,Wireless Earbuds,Electronics,81.39,1,SAVE10,Salt Lake City,73.25,True,10,81.39,8.14,2024.0,12.0,December,Monday,4.0,30.0,True,Small,High
+ORD000175,2024-04-03,CUST00020,Monitor Light,Electronics,37.94,5,FLASH30,Denver,132.79,True,30,189.7,56.91,2024.0,4.0,April,Wednesday,2.0,301.0,True,Large,High
+ORD000176,2024-05-20,CUST00028,Mechanical Keyboard,Electronics,92.01,1,,Orlando,92.01,True,0,92.01,0.0,2024.0,5.0,May,Monday,2.0,254.0,True,Small,High
+ORD000177,2024-05-27,CUST00009,Denim Jeans,Clothing,52.7,1,,Dallas,52.7,True,0,52.7,0.0,2024.0,5.0,May,Monday,2.0,247.0,True,Small,Medium
+ORD000178,2024-04-10,,Denim Jeans,Clothing,53.93,2,LOYALTY25,Portland,80.89,True,25,107.86,26.96,2024.0,4.0,April,Wednesday,2.0,294.0,True,Medium,High
+ORD000179,2024-02-03,CUST00179,Cookbook,Books & Media,28.92,1,,Dallas,28.92,True,0,28.92,0.0,2024.0,2.0,February,Saturday,1.0,361.0,False,Small,Low
+ORD000180,2024-08-08,CUST00030,Wool Sweater,Clothing,53.09,2,SAVE25,San Jose,79.64,True,25,106.18,26.55,2024.0,8.0,August,Thursday,3.0,174.0,True,Medium,High
+ORD000181,2024-10-21,CUST00181,Air Fryer,Home & Kitchen,81.11,1,FLASH30,Tampa,56.78,True,30,81.11,24.33,2024.0,10.0,October,Monday,4.0,100.0,True,Small,Medium
+ORD000182,2024-10-13,CUST00182,Board Game,Books & Media,32.76,5,WELCOME5,Chicago,155.61,True,5,163.8,8.19,2024.0,10.0,October,Sunday,4.0,108.0,True,Large,High
+ORD000183,2024-09-30,CUST00026,Power Bank,Electronics,45.6,1,,San Diego,45.6,True,0,45.6,0.0,2024.0,9.0,September,Monday,3.0,121.0,False,Small,Medium
+ORD000184,2024-04-28,CUST00007,Blender,Home & Kitchen,42.9,1,,Las Vegas,42.9,True,0,42.9,0.0,2024.0,4.0,April,Sunday,2.0,276.0,False,Small,Medium
+ORD000185,2025-01-10,CUST00185,Bluetooth Speaker,Electronics,53.35,1,SAVE25,Seattle,40.01,True,25,53.35,13.34,2025.0,1.0,January,Friday,1.0,19.0,False,Small,Medium
+ORD000186,2024-10-23,CUST00030,USB-C Cable,Electronics,12.01,1,,San Diego,12.01,True,0,12.01,0.0,2024.0,10.0,October,Wednesday,4.0,98.0,False,Small,Low
+ORD000187,2024-01-27,CUST00187,Knife Set,Home & Kitchen,58.39,1,,Salt Lake City,58.39,True,0,58.39,0.0,2024.0,1.0,January,Saturday,1.0,368.0,True,Small,Medium
+ORD000188,2024-12-30,CUST00188,Winter Jacket,Clothing,108.16,1,,Phoenix,108.16,True,0,108.16,0.0,2024.0,12.0,December,Monday,4.0,30.0,True,Small,High
+ORD000189,2024-03-26,CUST00189,Face Moisturizer,Health & Beauty,23.59,3,,Denver,70.77,True,0,70.77,0.0,2024.0,3.0,March,Tuesday,1.0,309.0,True,Medium,Medium
+ORD000190,2024-06-27,CUST00190,Laptop Stand,Electronics,36.46,5,,Nashville,182.3,True,0,182.3,0.0,2024.0,6.0,June,Thursday,2.0,216.0,True,Large,High
+ORD000191,2024-05-07,CUST00191,Journal Notebook,Books & Media,14.12,5,SAVE25,Detroit,52.95,True,25,70.6,17.65,2024.0,5.0,May,Tuesday,2.0,267.0,True,Large,Medium
+ORD000192,2024-04-21,,Puzzle 1000pc,Books & Media,19.23,1,SAVE25,Minneapolis,14.42,True,25,19.23,4.81,2024.0,4.0,April,Sunday,2.0,283.0,False,Small,Low
+ORD000193,2024-06-29,CUST00010,Resistance Bands,Health & Beauty,21.09,3,,Chicago,63.27,True,0,63.27,0.0,2024.0,6.0,June,Saturday,2.0,214.0,True,Medium,Medium
+ORD000194,2024-12-08,CUST00194,Sneakers,Clothing,83.3,2,,Minneapolis,166.6,True,0,166.6,0.0,2024.0,12.0,December,Sunday,4.0,52.0,True,Medium,High
+ORD000195,2025-01-09,CUST00195,Audiobook Subscription,Books & Media,9.06,2,,Minneapolis,18.12,True,0,18.12,0.0,2025.0,1.0,January,Thursday,1.0,20.0,False,Medium,Low
+ORD000196,2024-03-01,,Baseball Cap,Clothing,16.23,1,,Seattle,16.23,True,0,16.23,0.0,2024.0,3.0,March,Friday,1.0,334.0,False,Small,Low
+ORD000197,2024-07-27,CUST00197,Data Science Handbook,Books & Media,42.62,2,,Nashville,85.24,True,0,85.24,0.0,2024.0,7.0,July,Saturday,3.0,186.0,True,Medium,High
+ORD000198,2024-04-12,CUST00198,Blender,Home & Kitchen,46.42,3,WINTER20,Minneapolis,111.41,True,20,139.26,27.85,2024.0,4.0,April,Friday,2.0,292.0,True,Medium,High
+ORD000199,2024-04-22,CUST00199,Massage Gun,Health & Beauty,76.23,1,SAVE10,Denver,68.61,True,10,76.23,7.62,2024.0,4.0,April,Monday,2.0,282.0,True,Small,Medium
+ORD000200,2024-04-27,CUST00014,Water Bottle,Home & Kitchen,16.42,1,,Denver,16.42,True,0,16.42,0.0,2024.0,4.0,April,Saturday,2.0,277.0,False,Small,Low
+ORD000201,2024-02-07,CUST00030,Winter Jacket,Clothing,106.73,2,LOYALTY25,Orlando,160.09,True,25,213.46,53.37,2024.0,2.0,February,Wednesday,1.0,357.0,True,Medium,High
+ORD000202,2024-10-09,CUST00202,Hair Dryer,Health & Beauty,40.57,1,VIP40,Indianapolis,24.34,True,40,40.57,16.23,2024.0,10.0,October,Wednesday,4.0,112.0,False,Small,Low
+ORD000203,2024-09-01,CUST00011,Kitchen Scale,Home & Kitchen,18.5,1,,Boston,18.5,True,0,18.5,0.0,2024.0,9.0,September,Sunday,3.0,150.0,False,Small,Low
+ORD000204,2024-10-26,CUST00204,Wool Sweater,Clothing,55.21,3,LOYALTY25,Minneapolis,124.22,True,25,165.63,41.41,2024.0,10.0,October,Saturday,4.0,95.0,True,Medium,High
+ORD000205,2024-03-10,CUST00205,Laptop Stand,Electronics,42.93,3,,Dallas,128.79,True,0,128.79,0.0,2024.0,3.0,March,Sunday,1.0,325.0,True,Medium,High
+ORD000206,2024-02-04,CUST00206,Winter Jacket,Clothing,90.98,1,FLASH30,New York,63.69,True,30,90.98,27.29,2024.0,2.0,February,Sunday,1.0,360.0,True,Small,Medium
+ORD000207,2024-06-17,CUST00207,Journal Notebook,Books & Media,12.39,1,,San Antonio,12.39,True,0,12.39,0.0,2024.0,6.0,June,Monday,2.0,226.0,False,Small,Low
+ORD000208,2024-02-18,CUST00208,Sunscreen SPF50,Health & Beauty,13.9,3,,New York,41.7,True,0,41.7,0.0,2024.0,2.0,February,Sunday,1.0,346.0,False,Medium,Medium
+ORD000209,2024-07-22,CUST00209,Sunscreen SPF50,Health & Beauty,15.4,1,FLASH30,Atlanta,10.78,True,30,15.4,4.62,2024.0,7.0,July,Monday,3.0,191.0,False,Small,Low
+ORD000210,2025-01-02,CUST00002,Python Programming Book,Books & Media,41.96,2,,Columbus,83.92,True,0,83.92,0.0,2025.0,1.0,January,Thursday,1.0,27.0,True,Medium,High
+ORD000211,2024-09-14,CUST00211,Electric Kettle,Home & Kitchen,37.1,1,,San Jose,37.1,True,0,37.1,0.0,2024.0,9.0,September,Saturday,3.0,137.0,False,Small,Medium
+ORD000212,2024-10-08,CUST00212,Audiobook Subscription,Books & Media,9.2,2,,Kansas City,18.4,True,0,18.4,0.0,2024.0,10.0,October,Tuesday,4.0,113.0,False,Medium,Low
+ORD000213,2024-06-30,CUST00213,Wool Sweater,Clothing,51.56,2,SAVE10,Salt Lake City,92.81,True,10,103.12,10.31,2024.0,6.0,June,Sunday,2.0,213.0,True,Medium,High
+ORD000214,2024-08-17,CUST00214,Power Bank,Electronics,46.86,2,LOYALTY25,Charlotte,70.29,True,25,93.72,23.43,2024.0,8.0,August,Saturday,3.0,165.0,True,Medium,Medium
+ORD000215,2024-10-27,CUST00007,Fiction Bestseller,Books & Media,17.81,2,,San Francisco,35.62,True,0,35.62,0.0,2024.0,10.0,October,Sunday,4.0,94.0,False,Medium,Medium
+ORD000216,2024-07-03,CUST00216,Shampoo Set,Health & Beauty,18.85,1,FREESHIP,Detroit,18.85,True,0,18.85,0.0,2024.0,7.0,July,Wednesday,3.0,210.0,False,Small,Low
+ORD000217,,CUST00013,Running Shoes,Clothing,98.76,3,,Phoenix,296.28,True,0,296.28,0.0,,,,,,,True,Medium,High
+ORD000218,,CUST00011,Resistance Bands,Health & Beauty,19.95,2,WINTER20,Boston,31.92,True,20,39.9,7.98,,,,,,,False,Medium,Low
+ORD000219,2024-06-28,CUST00219,Face Moisturizer,Health & Beauty,20.77,1,,San Diego,20.77,True,0,20.77,0.0,2024.0,6.0,June,Friday,2.0,215.0,False,Small,Low
+ORD000220,2024-06-12,CUST00220,First Aid Kit,Health & Beauty,30.13,1,,Phoenix,30.13,True,0,30.13,0.0,2024.0,6.0,June,Wednesday,2.0,231.0,False,Small,Low
+ORD000221,2024-03-23,CUST00002,Massage Gun,Health & Beauty,74.69,1,,Los Angeles,74.69,True,0,74.69,0.0,2024.0,3.0,March,Saturday,1.0,312.0,True,Small,High
+ORD000222,2024-02-09,,Board Game,Books & Media,29.27,2,,Phoenix,58.54,True,0,58.54,0.0,2024.0,2.0,February,Friday,1.0,355.0,True,Medium,Medium
+ORD000223,2024-08-17,CUST00223,Monitor Light,Electronics,36.52,1,SAVE15,Atlanta,31.04,True,15,36.52,5.48,2024.0,8.0,August,Saturday,3.0,165.0,False,Small,Low
+ORD000224,2024-09-26,CUST00224,Journal Notebook,Books & Media,12.3,1,SAVE15,Kansas City,10.46,True,15,12.3,1.84,2024.0,9.0,September,Thursday,3.0,125.0,False,Small,Low
+ORD000225,2024-09-05,CUST00225,Wool Sweater,Clothing,54.6,1,SAVE10,Columbus,49.14,True,10,54.6,5.46,2024.0,9.0,September,Thursday,3.0,146.0,False,Small,Medium
+ORD000226,2024-12-20,CUST00226,Sports Shorts,Clothing,32.36,4,LOYALTY25,Chicago,97.08,True,25,129.44,32.36,2024.0,12.0,December,Friday,4.0,40.0,True,Large,High
+ORD000227,2024-08-18,CUST00227,Blender,Home & Kitchen,42.61,2,,Columbus,85.22,True,0,85.22,0.0,2024.0,8.0,August,Sunday,3.0,164.0,True,Medium,High
+ORD000228,2024-01-30,,Knife Set,Home & Kitchen,59.61,1,,Los Angeles,59.61,True,0,59.61,0.0,2024.0,1.0,January,Tuesday,1.0,365.0,True,Small,Medium
+ORD000229,2024-12-23,CUST00229,Massage Gun,Health & Beauty,83.0,2,,Raleigh,166.0,True,0,166.0,0.0,2024.0,12.0,December,Monday,4.0,37.0,True,Medium,High
+ORD000230,2024-12-10,CUST00230,Hair Dryer,Health & Beauty,42.8,3,HOLIDAY15,Austin,109.14,True,15,128.4,19.26,2024.0,12.0,December,Tuesday,4.0,50.0,True,Medium,High
+ORD000231,2024-11-04,CUST00231,Board Game,Books & Media,28.89,5,,New York,144.45,True,0,144.45,0.0,2024.0,11.0,November,Monday,4.0,86.0,True,Large,High
+ORD000232,2024-10-02,CUST00232,Journal Notebook,Books & Media,12.63,1,HOLIDAY15,Austin,10.74,True,15,12.63,1.89,2024.0,10.0,October,Wednesday,4.0,119.0,False,Small,Low
+ORD000233,2024-07-08,CUST00233,Leather Belt,Clothing,35.14,2,SAVE20,Atlanta,56.22,True,20,70.28,14.06,2024.0,7.0,July,Monday,3.0,205.0,True,Medium,Medium
+ORD000234,,CUST00234,Lunch Box Set,Home & Kitchen,23.03,1,,Kansas City,23.03,True,0,23.03,0.0,,,,,,,False,Small,Low
+ORD000235,2024-02-09,CUST00235,Audiobook Subscription,Books & Media,9.96,2,,Philadelphia,19.92,True,0,19.92,0.0,2024.0,2.0,February,Friday,1.0,355.0,False,Medium,Low
+ORD000236,2024-08-17,CUST00236,Water Bottle,Home & Kitchen,14.68,1,,Phoenix,14.68,True,0,14.68,0.0,2024.0,8.0,August,Saturday,3.0,165.0,False,Small,Low
+ORD000237,2024-10-25,CUST00237,Kitchen Scale,Home & Kitchen,20.49,1,,Orlando,20.49,True,0,20.49,0.0,2024.0,10.0,October,Friday,4.0,96.0,False,Small,Low
+ORD000238,2024-10-29,CUST00238,Sunscreen SPF50,Health & Beauty,15.51,3,,Indianapolis,46.53,True,0,46.53,0.0,2024.0,10.0,October,Tuesday,4.0,92.0,False,Medium,Medium
+ORD000239,2024-04-07,CUST00239,Sneakers,Clothing,85.42,2,,Las Vegas,170.84,True,0,170.84,0.0,2024.0,4.0,April,Sunday,2.0,297.0,True,Medium,High
+ORD000240,2024-05-16,,Cotton T-Shirt,Clothing,21.7,1,,Orlando,21.7,True,0,21.7,0.0,2024.0,5.0,May,Thursday,2.0,258.0,False,Small,Low
+ORD000241,2024-12-05,CUST00241,Casual Dress,Clothing,60.55,2,,San Antonio,121.1,True,0,121.1,0.0,2024.0,12.0,December,Thursday,4.0,55.0,True,Medium,High
+ORD000242,2024-10-26,CUST00011,Shampoo Set,Health & Beauty,17.11,1,,Los Angeles,17.11,True,0,17.11,0.0,2024.0,10.0,October,Saturday,4.0,95.0,False,Small,Low
+ORD000243,2024-07-17,CUST00046,Leather Belt,Clothing,33.03,1,SUMMER10,Philadelphia,29.73,True,10,33.03,3.3,2024.0,7.0,July,Wednesday,3.0,196.0,False,Small,Low
+ORD000244,2024-11-27,CUST00244,Vitamin Supplements,Health & Beauty,23.06,1,FREESHIP,Minneapolis,23.06,True,0,23.06,0.0,2024.0,11.0,November,Wednesday,4.0,63.0,False,Small,Low
+ORD000245,2024-06-08,CUST00034,Leather Belt,Clothing,37.11,1,FREESHIP,San Antonio,37.11,True,0,37.11,0.0,2024.0,6.0,June,Saturday,2.0,235.0,False,Small,Medium
+ORD000246,2024-12-03,CUST00246,Data Science Handbook,Books & Media,37.64,3,,Raleigh,112.92,True,0,112.92,0.0,2024.0,12.0,December,Tuesday,4.0,57.0,True,Medium,High
+ORD000247,2024-02-12,,Yoga Mat,Health & Beauty,30.44,1,VIP40,Miami,18.26,True,40,30.44,12.18,2024.0,2.0,February,Monday,1.0,352.0,False,Small,Low
+ORD000248,2024-11-10,CUST00005,Leather Belt,Clothing,32.23,2,,Chicago,64.46,True,0,64.46,0.0,2024.0,11.0,November,Sunday,4.0,80.0,True,Medium,Medium
+ORD000249,2024-10-21,,Water Bottle,Home & Kitchen,15.52,3,,Raleigh,46.56,True,0,46.56,0.0,2024.0,10.0,October,Monday,4.0,100.0,False,Medium,Medium
+ORD000250,2024-10-22,CUST00250,Winter Jacket,Clothing,104.96,3,,Boston,314.88,True,0,314.88,0.0,2024.0,10.0,October,Tuesday,4.0,99.0,True,Medium,High
+ORD000251,2024-11-01,CUST00251,Hair Dryer,Health & Beauty,41.15,1,,Dallas,41.15,True,0,41.15,0.0,2024.0,11.0,November,Friday,4.0,89.0,False,Small,Medium
+ORD000252,2024-04-24,CUST00252,Journal Notebook,Books & Media,13.29,1,,Detroit,13.29,True,0,13.29,0.0,2024.0,4.0,April,Wednesday,2.0,280.0,False,Small,Low
+ORD000253,2024-06-05,CUST00253,Lunch Box Set,Home & Kitchen,26.88,1,,San Jose,26.88,True,0,26.88,0.0,2024.0,6.0,June,Wednesday,2.0,238.0,False,Small,Low
+ORD000254,2024-12-01,CUST00005,Monitor Light,Electronics,35.91,3,,Nashville,107.73,True,0,107.73,0.0,2024.0,12.0,December,Sunday,4.0,59.0,True,Medium,High
+ORD000255,2024-05-09,CUST00255,Shampoo Set,Health & Beauty,17.6,2,FLASH30,Portland,24.64,True,30,35.2,10.56,2024.0,5.0,May,Thursday,2.0,265.0,False,Medium,Low
+ORD000256,2024-10-31,CUST00256,Knife Set,Home & Kitchen,59.82,1,,San Diego,59.82,True,0,59.82,0.0,2024.0,10.0,October,Thursday,4.0,90.0,True,Small,Medium
+ORD000257,2024-02-08,CUST00042,Denim Jeans,Clothing,52.03,2,,Kansas City,104.06,True,0,104.06,0.0,2024.0,2.0,February,Thursday,1.0,356.0,True,Medium,High
+ORD000258,2024-05-23,CUST00258,Food Container Set,Home & Kitchen,29.43,3,,Salt Lake City,88.29,True,0,88.29,0.0,2024.0,5.0,May,Thursday,2.0,251.0,True,Medium,High
+ORD000259,2024-04-20,CUST00039,Bluetooth Speaker,Electronics,49.14,1,FREESHIP,Atlanta,49.14,True,0,49.14,0.0,2024.0,4.0,April,Saturday,2.0,284.0,False,Small,Medium
+ORD000260,2024-10-04,,Coffee Maker,Home & Kitchen,55.99,4,,Denver,223.96,True,0,223.96,0.0,2024.0,10.0,October,Friday,4.0,117.0,True,Large,High
+ORD000261,2024-09-13,CUST00261,Kitchen Scale,Home & Kitchen,21.31,2,,Kansas City,42.62,True,0,42.62,0.0,2024.0,9.0,September,Friday,3.0,138.0,False,Medium,Medium
+ORD000262,2024-07-27,CUST00262,Wireless Earbuds,Electronics,75.23,3,,Boston,225.69,True,0,225.69,0.0,2024.0,7.0,July,Saturday,3.0,186.0,True,Medium,High
+ORD000263,2024-03-03,CUST00263,Electric Kettle,Home & Kitchen,35.26,1,,Orlando,35.26,True,0,35.26,0.0,2024.0,3.0,March,Sunday,1.0,332.0,False,Small,Medium
+ORD000264,2024-07-29,CUST00264,Yoga Mat,Health & Beauty,29.54,1,,San Francisco,29.54,True,0,29.54,0.0,2024.0,7.0,July,Monday,3.0,184.0,False,Small,Low
+ORD000265,2024-03-16,CUST00265,Cookbook,Books & Media,31.12,1,,Phoenix,31.12,True,0,31.12,0.0,2024.0,3.0,March,Saturday,1.0,319.0,False,Small,Low
+ORD000266,2024-04-29,CUST00266,Hair Dryer,Health & Beauty,37.42,2,,San Jose,74.84,True,0,74.84,0.0,2024.0,4.0,April,Monday,2.0,275.0,True,Medium,High
+ORD000267,2024-04-07,,Journal Notebook,Books & Media,13.77,2,,Los Angeles,27.54,True,0,27.54,0.0,2024.0,4.0,April,Sunday,2.0,297.0,False,Medium,Low
+ORD000268,2024-05-08,CUST00268,Vitamin Supplements,Health & Beauty,26.11,4,,Tampa,104.44,True,0,104.44,0.0,2024.0,5.0,May,Wednesday,2.0,266.0,True,Large,High
+ORD000269,2024-12-17,CUST00269,Shampoo Set,Health & Beauty,17.83,2,,Charlotte,35.66,True,0,35.66,0.0,2024.0,12.0,December,Tuesday,4.0,43.0,False,Medium,Medium
+ORD000270,2024-07-14,CUST00270,Audiobook Subscription,Books & Media,9.39,1,,San Francisco,9.39,True,0,9.39,0.0,2024.0,7.0,July,Sunday,3.0,199.0,False,Small,Low
+ORD000271,2024-04-24,CUST00271,Audiobook Subscription,Books & Media,9.0,1,,Las Vegas,9.0,True,0,9.0,0.0,2024.0,4.0,April,Wednesday,2.0,280.0,False,Small,Low
+ORD000272,2025-01-05,CUST00272,Audiobook Subscription,Books & Media,9.96,1,,Nashville,9.96,True,0,9.96,0.0,2025.0,1.0,January,Sunday,1.0,24.0,False,Small,Low
+ORD000273,2024-12-27,CUST00273,Running Shoes,Clothing,98.19,2,WELCOME5,San Diego,186.56,True,5,196.38,9.82,2024.0,12.0,December,Friday,4.0,33.0,True,Medium,High
+ORD000274,2024-11-04,CUST00048,Knife Set,Home & Kitchen,57.6,1,WELCOME5,San Antonio,54.72,True,5,57.6,2.88,2024.0,11.0,November,Monday,4.0,86.0,True,Small,Medium
+ORD000275,2024-09-24,CUST00275,Vitamin Supplements,Health & Beauty,26.73,1,,Indianapolis,26.73,True,0,26.73,0.0,2024.0,9.0,September,Tuesday,3.0,127.0,False,Small,Low
+ORD000276,2024-11-06,CUST00034,Board Game,Books & Media,,1,,Columbus,0.0,True,0,0.0,0.0,2024.0,11.0,November,Wednesday,4.0,84.0,False,Small,Low
+ORD000277,2024-11-08,CUST00024,Shampoo Set,Health & Beauty,17.8,1,WINTER20,Austin,14.24,True,20,17.8,3.56,2024.0,11.0,November,Friday,4.0,82.0,False,Small,Low
+ORD000278,2024-03-23,CUST00278,Blender,Home & Kitchen,48.02,3,,Columbus,144.06,True,0,144.06,0.0,2024.0,3.0,March,Saturday,1.0,312.0,True,Medium,High
+ORD000279,2024-12-03,CUST00279,Baseball Cap,Clothing,17.27,2,,Denver,34.54,True,0,34.54,0.0,2024.0,12.0,December,Tuesday,4.0,57.0,False,Medium,Medium
+ORD000280,2024-07-18,CUST00280,Sports Shorts,Clothing,27.11,1,,Minneapolis,27.11,True,0,27.11,0.0,2024.0,7.0,July,Thursday,3.0,195.0,False,Small,Low
+ORD000281,2024-08-31,CUST00281,Audiobook Subscription,Books & Media,9.56,2,SAVE20,Tampa,15.3,True,20,19.12,3.82,2024.0,8.0,August,Saturday,3.0,151.0,False,Medium,Low
+ORD000282,2024-06-26,CUST00282,Casual Dress,Clothing,61.73,1,,Columbus,61.73,True,0,61.73,0.0,2024.0,6.0,June,Wednesday,2.0,217.0,True,Small,Medium
+ORD000283,2024-05-23,CUST00283,Bluetooth Speaker,Electronics,46.66,1,HOLIDAY15,Las Vegas,39.66,True,15,46.66,7.0,2024.0,5.0,May,Thursday,2.0,251.0,False,Small,Medium
+ORD000284,2024-08-02,CUST00284,Water Bottle,Home & Kitchen,14.82,1,,Philadelphia,14.82,True,0,14.82,0.0,2024.0,8.0,August,Friday,3.0,180.0,False,Small,Low
+ORD000285,2024-08-30,CUST00045,Resistance Bands,Health & Beauty,20.35,1,,Indianapolis,20.35,True,0,20.35,0.0,2024.0,8.0,August,Friday,3.0,152.0,False,Small,Low
+ORD000286,2024-07-21,,Water Bottle,Home & Kitchen,,2,,Phoenix,0.0,True,0,0.0,0.0,2024.0,7.0,July,Sunday,3.0,192.0,False,Medium,Low
+ORD000287,2024-06-13,CUST00287,Monitor Light,Electronics,34.11,1,,Denver,34.11,True,0,34.11,0.0,2024.0,6.0,June,Thursday,2.0,230.0,False,Small,Medium
+ORD000288,2024-11-24,CUST00288,Wool Sweater,Clothing,56.62,2,SAVE25,Columbus,84.93,True,25,113.24,28.31,2024.0,11.0,November,Sunday,4.0,66.0,True,Medium,High
+ORD000289,2024-04-02,,USB-C Cable,Electronics,14.22,1,HOLIDAY15,Raleigh,12.09,True,15,14.22,2.13,2024.0,4.0,April,Tuesday,2.0,302.0,False,Small,Low
+ORD000290,2025-01-06,CUST00290,Denim Jeans,Clothing,53.42,4,,Denver,213.68,True,0,213.68,0.0,2025.0,1.0,January,Monday,1.0,23.0,True,Large,High
+ORD000291,2024-05-22,CUST00291,Cookbook,Books & Media,31.42,1,,Nashville,31.42,True,0,31.42,0.0,2024.0,5.0,May,Wednesday,2.0,252.0,False,Small,Low
+ORD000292,2024-10-23,CUST00292,Baseball Cap,Clothing,18.49,1,,Columbus,18.49,True,0,18.49,0.0,2024.0,10.0,October,Wednesday,4.0,98.0,False,Small,Low
+ORD000293,2024-05-19,CUST00003,Hair Dryer,Health & Beauty,41.5,1,,San Diego,41.5,True,0,41.5,0.0,2024.0,5.0,May,Sunday,2.0,255.0,False,Small,Medium
+ORD000294,2025-01-09,CUST00294,USB-C Cable,Electronics,12.96,1,,Tampa,12.96,True,0,12.96,0.0,2025.0,1.0,January,Thursday,1.0,20.0,False,Small,Low
+ORD000295,2024-09-20,CUST00295,Shampoo Set,Health & Beauty,19.15,1,,Las Vegas,19.15,True,0,19.15,0.0,2024.0,9.0,September,Friday,3.0,131.0,False,Small,Low
+ORD000296,2024-06-15,CUST00296,Electric Toothbrush,Health & Beauty,49.53,1,,Raleigh,49.53,True,0,49.53,0.0,2024.0,6.0,June,Saturday,2.0,228.0,True,Small,Medium
+ORD000297,2024-08-01,CUST00044,Puzzle 1000pc,Books & Media,18.61,1,,Austin,18.61,True,0,18.61,0.0,2024.0,8.0,August,Thursday,3.0,181.0,False,Small,Low
+ORD000298,2024-03-06,CUST00042,Board Game,Books & Media,30.14,2,FLASH30,San Diego,42.2,True,30,60.28,18.08,2024.0,3.0,March,Wednesday,1.0,329.0,False,Medium,Medium
+ORD000299,2024-02-16,CUST00299,Journal Notebook,Books & Media,13.75,1,,Portland,13.75,True,0,13.75,0.0,2024.0,2.0,February,Friday,1.0,348.0,False,Small,Low
+ORD000300,2024-04-22,CUST00043,Electric Kettle,Home & Kitchen,35.87,1,,Boston,35.87,True,0,35.87,0.0,2024.0,4.0,April,Monday,2.0,282.0,False,Small,Medium
+ORD000301,2024-10-23,CUST00301,Sneakers,Clothing,80.53,2,,Indianapolis,161.06,True,0,161.06,0.0,2024.0,10.0,October,Wednesday,4.0,98.0,True,Medium,High
+ORD000302,,CUST00302,Puzzle 1000pc,Books & Media,21.69,1,,Miami,21.69,True,0,21.69,0.0,,,,,,,False,Small,Low
+ORD000303,2024-05-08,CUST00021,Laptop Stand,Electronics,43.34,2,,Detroit,86.68,True,0,86.68,0.0,2024.0,5.0,May,Wednesday,2.0,266.0,True,Medium,High
+ORD000304,2024-03-03,CUST00304,Face Moisturizer,Health & Beauty,24.07,2,,Philadelphia,48.14,True,0,48.14,0.0,2024.0,3.0,March,Sunday,1.0,332.0,False,Medium,Medium
+ORD000305,2024-07-29,CUST00004,Sports Shorts,Clothing,32.27,1,,Houston,32.27,True,0,32.27,0.0,2024.0,7.0,July,Monday,3.0,184.0,False,Small,Low
+ORD000306,2024-02-06,CUST00306,Resistance Bands,Health & Beauty,19.3,2,FREESHIP,Raleigh,38.6,True,0,38.6,0.0,2024.0,2.0,February,Tuesday,1.0,358.0,False,Medium,Medium
+ORD000307,2024-07-06,CUST00037,Monitor Light,Electronics,34.28,1,,Nashville,34.28,True,0,34.28,0.0,2024.0,7.0,July,Saturday,3.0,207.0,False,Small,Medium
+ORD000308,2024-10-10,CUST00005,Running Shoes,Clothing,86.81,4,FREESHIP,Boston,347.24,True,0,347.24,0.0,2024.0,10.0,October,Thursday,4.0,111.0,True,Large,High
+ORD000309,2024-08-29,CUST00309,Python Programming Book,Books & Media,48.81,1,,Phoenix,48.81,True,0,48.81,0.0,2024.0,8.0,August,Thursday,3.0,153.0,False,Small,Medium
+ORD000310,,CUST00310,Laptop Stand,Electronics,39.59,1,SUMMER10,San Antonio,35.63,True,10,39.59,3.96,,,,,,,False,Small,Medium
+ORD000311,2024-11-09,CUST00311,Vitamin Supplements,Health & Beauty,23.77,1,LOYALTY25,Minneapolis,17.83,True,25,23.77,5.94,2024.0,11.0,November,Saturday,4.0,81.0,False,Small,Low
+ORD000312,2024-03-11,CUST00056,Cookbook,Books & Media,32.87,2,,Indianapolis,65.74,True,0,65.74,0.0,2024.0,3.0,March,Monday,1.0,324.0,True,Medium,Medium
+ORD000313,2024-05-21,CUST00313,Sports Shorts,Clothing,29.93,2,FREESHIP,Seattle,59.86,True,0,59.86,0.0,2024.0,5.0,May,Tuesday,2.0,253.0,True,Medium,Medium
+ORD000314,2024-01-31,CUST00314,Winter Jacket,Clothing,93.02,3,,Chicago,279.06,True,0,279.06,0.0,2024.0,1.0,January,Wednesday,1.0,364.0,True,Medium,High
+ORD000315,2024-06-23,CUST00315,Baseball Cap,Clothing,18.14,1,SUMMER10,Orlando,16.33,True,10,18.14,1.81,2024.0,6.0,June,Sunday,2.0,220.0,False,Small,Low
+ORD000316,2024-03-30,CUST00316,Resistance Bands,Health & Beauty,19.26,2,,Houston,38.52,True,0,38.52,0.0,2024.0,3.0,March,Saturday,1.0,305.0,False,Medium,Medium
+ORD000317,2024-12-07,CUST00317,Sneakers,Clothing,84.46,1,,Minneapolis,84.46,True,0,84.46,0.0,2024.0,12.0,December,Saturday,4.0,53.0,True,Small,High
+ORD000318,2024-03-24,CUST00318,Hair Dryer,Health & Beauty,41.69,1,,Atlanta,41.69,True,0,41.69,0.0,2024.0,3.0,March,Sunday,1.0,311.0,False,Small,Medium
+ORD000319,2024-12-24,CUST00319,Blender,Home & Kitchen,43.02,4,,Minneapolis,172.08,True,0,172.08,0.0,2024.0,12.0,December,Tuesday,4.0,36.0,True,Large,High
+ORD000320,2024-06-24,CUST00320,First Aid Kit,Health & Beauty,30.21,2,,Los Angeles,60.42,True,0,60.42,0.0,2024.0,6.0,June,Monday,2.0,219.0,True,Medium,Medium
+ORD000321,2024-10-27,CUST00321,Bluetooth Speaker,Electronics,47.9,1,,Kansas City,47.9,True,0,47.9,0.0,2024.0,10.0,October,Sunday,4.0,94.0,False,Small,Medium
+ORD000322,2024-03-02,,USB-C Cable,Electronics,13.71,4,,Phoenix,54.84,True,0,54.84,0.0,2024.0,3.0,March,Saturday,1.0,333.0,True,Large,Medium
+ORD000323,2024-06-29,CUST00323,Blender,Home & Kitchen,42.23,2,,Chicago,84.46,True,0,84.46,0.0,2024.0,6.0,June,Saturday,2.0,214.0,True,Medium,High
+ORD000324,,CUST00324,Air Fryer,Home & Kitchen,96.63,1,,Boston,96.63,True,0,96.63,0.0,,,,,,,True,Small,High
+ORD000325,2024-05-24,CUST00064,Puzzle 1000pc,Books & Media,21.22,2,,San Antonio,42.44,True,0,42.44,0.0,2024.0,5.0,May,Friday,2.0,250.0,False,Medium,Medium
+ORD000326,2024-10-27,CUST00326,Coffee Maker,Home & Kitchen,56.21,1,,Phoenix,56.21,True,0,56.21,0.0,2024.0,10.0,October,Sunday,4.0,94.0,True,Small,Medium
+ORD000327,2024-12-25,CUST00023,Audiobook Subscription,Books & Media,9.71,1,,Austin,9.71,True,0,9.71,0.0,2024.0,12.0,December,Wednesday,4.0,35.0,False,Small,Low
+ORD000328,2024-06-04,CUST00328,Puzzle 1000pc,Books & Media,18.83,1,WINTER20,Raleigh,15.06,True,20,18.83,3.77,2024.0,6.0,June,Tuesday,2.0,239.0,False,Small,Low
+ORD000329,2024-06-26,CUST00046,Electric Kettle,Home & Kitchen,35.43,2,,Atlanta,70.86,True,0,70.86,0.0,2024.0,6.0,June,Wednesday,2.0,217.0,True,Medium,High
+ORD000330,,CUST00330,Art Supplies Set,Books & Media,31.81,1,,San Antonio,31.81,True,0,31.81,0.0,,,,,,,False,Small,Low
+ORD000331,2025-01-01,CUST00331,Audiobook Subscription,Books & Media,10.22,1,FLASH30,Kansas City,7.15,True,30,10.22,3.07,2025.0,1.0,January,Wednesday,1.0,28.0,False,Small,Low
+ORD000332,2024-10-16,CUST00332,Art Supplies Set,Books & Media,37.98,1,,Detroit,37.98,True,0,37.98,0.0,2024.0,10.0,October,Wednesday,4.0,105.0,False,Small,Medium
+ORD000333,2024-04-01,CUST00004,Running Shoes,Clothing,92.27,3,,Denver,276.81,True,0,276.81,0.0,2024.0,4.0,April,Monday,2.0,303.0,True,Medium,High
+ORD000334,2024-05-16,CUST00334,Winter Jacket,Clothing,100.49,1,,Los Angeles,100.49,True,0,100.49,0.0,2024.0,5.0,May,Thursday,2.0,258.0,True,Small,High
+ORD000335,2024-10-10,CUST00335,Sneakers,Clothing,,1,,Portland,0.0,True,0,0.0,0.0,2024.0,10.0,October,Thursday,4.0,111.0,False,Small,Low
+ORD000336,2025-01-01,CUST00336,Webcam HD,Electronics,69.53,1,,Orlando,69.53,True,0,69.53,0.0,2025.0,1.0,January,Wednesday,1.0,28.0,True,Small,Medium
+ORD000337,2024-08-28,CUST00337,Sneakers,Clothing,74.51,1,,Las Vegas,74.51,True,0,74.51,0.0,2024.0,8.0,August,Wednesday,3.0,154.0,True,Small,High
+ORD000338,2024-02-21,CUST00338,Leather Belt,Clothing,34.6,1,,Orlando,34.6,True,0,34.6,0.0,2024.0,2.0,February,Wednesday,1.0,343.0,False,Small,Medium
+ORD000339,2024-08-31,CUST00339,Sports Shorts,Clothing,31.89,2,,Las Vegas,63.78,True,0,63.78,0.0,2024.0,8.0,August,Saturday,3.0,151.0,True,Medium,Medium
+ORD000340,2024-06-22,CUST00340,Board Game,Books & Media,28.38,1,,Minneapolis,28.38,True,0,28.38,0.0,2024.0,6.0,June,Saturday,2.0,221.0,False,Small,Low
+ORD000341,2024-02-18,CUST00341,Baseball Cap,Clothing,17.85,1,,Minneapolis,17.85,True,0,17.85,0.0,2024.0,2.0,February,Sunday,1.0,346.0,False,Small,Low
+ORD000342,2024-09-08,CUST00342,Cookbook,Books & Media,30.72,2,,Denver,61.44,True,0,61.44,0.0,2024.0,9.0,September,Sunday,3.0,143.0,True,Medium,Medium
+ORD000343,2024-04-13,CUST00343,Power Bank,Electronics,48.02,1,,Austin,48.02,True,0,48.02,0.0,2024.0,4.0,April,Saturday,2.0,291.0,False,Small,Medium
+ORD000344,2024-07-28,CUST00344,Smartphone Case,Electronics,23.58,1,,Nashville,23.58,True,0,23.58,0.0,2024.0,7.0,July,Sunday,3.0,185.0,False,Small,Low
+ORD000345,2024-12-29,CUST00345,Casual Dress,Clothing,63.52,2,,San Francisco,127.04,True,0,127.04,0.0,2024.0,12.0,December,Sunday,4.0,31.0,True,Medium,High
+ORD000346,2024-06-14,CUST00007,Monitor Light,Electronics,37.23,1,,Columbus,37.23,True,0,37.23,0.0,2024.0,6.0,June,Friday,2.0,229.0,False,Small,Medium
+ORD000347,2024-04-13,CUST00347,Food Container Set,Home & Kitchen,29.3,4,,Phoenix,117.2,True,0,117.2,0.0,2024.0,4.0,April,Saturday,2.0,291.0,True,Large,High
+ORD000348,2024-03-25,CUST00054,Audiobook Subscription,Books & Media,10.85,2,,Boston,21.7,True,0,21.7,0.0,2024.0,3.0,March,Monday,1.0,310.0,False,Medium,Low
+ORD000349,2024-09-28,CUST00047,Wireless Earbuds,Electronics,81.08,2,HOLIDAY15,Charlotte,137.84,True,15,162.16,24.32,2024.0,9.0,September,Saturday,3.0,123.0,True,Medium,High
+ORD000350,2024-11-23,CUST00061,Monitor Light,Electronics,37.08,1,FLASH30,Las Vegas,25.96,True,30,37.08,11.12,2024.0,11.0,November,Saturday,4.0,67.0,False,Small,Low
+ORD000351,2024-06-12,CUST00039,Shampoo Set,Health & Beauty,17.32,1,SAVE10,Orlando,15.59,True,10,17.32,1.73,2024.0,6.0,June,Wednesday,2.0,231.0,False,Small,Low
+ORD000352,2024-03-23,CUST00352,Wool Sweater,Clothing,49.65,1,WINTER20,Raleigh,39.72,True,20,49.65,9.93,2024.0,3.0,March,Saturday,1.0,312.0,False,Small,Medium
+ORD000353,2024-07-09,CUST00353,Electric Kettle,Home & Kitchen,38.03,1,,Boston,38.03,True,0,38.03,0.0,2024.0,7.0,July,Tuesday,3.0,204.0,False,Small,Medium
+ORD000354,2024-03-15,CUST00060,Board Game,Books & Media,28.8,2,,Las Vegas,57.6,True,0,57.6,0.0,2024.0,3.0,March,Friday,1.0,320.0,True,Medium,Medium
+ORD000355,2024-07-29,CUST00355,Vitamin Supplements,Health & Beauty,22.98,2,,Columbus,45.96,True,0,45.96,0.0,2024.0,7.0,July,Monday,3.0,184.0,False,Medium,Medium
+ORD000356,2024-12-26,CUST00356,Face Moisturizer,Health & Beauty,23.08,2,,Austin,46.16,True,0,46.16,0.0,2024.0,12.0,December,Thursday,4.0,34.0,False,Medium,Medium
+ORD000357,2024-06-09,CUST00005,Power Bank,Electronics,41.32,4,,Kansas City,165.28,True,0,165.28,0.0,2024.0,6.0,June,Sunday,2.0,234.0,True,Large,High
+ORD000358,2024-12-12,CUST00358,Blender,Home & Kitchen,47.79,1,,San Francisco,47.79,True,0,47.79,0.0,2024.0,12.0,December,Thursday,4.0,48.0,False,Small,Medium
+ORD000359,2024-02-22,CUST00008,Art Supplies Set,Books & Media,33.82,1,,Dallas,33.82,True,0,33.82,0.0,2024.0,2.0,February,Thursday,1.0,342.0,False,Small,Medium
+ORD000360,2024-08-23,CUST00014,Self-Help Book,Books & Media,13.8,1,,Dallas,13.8,True,0,13.8,0.0,2024.0,8.0,August,Friday,3.0,159.0,False,Small,Low
+ORD000361,2024-07-02,CUST00361,Vitamin Supplements,Health & Beauty,25.07,4,,Boston,100.28,True,0,100.28,0.0,2024.0,7.0,July,Tuesday,3.0,211.0,True,Large,High
+ORD000362,2024-03-18,CUST00362,Sports Shorts,Clothing,31.08,1,,Tampa,31.08,True,0,31.08,0.0,2024.0,3.0,March,Monday,1.0,317.0,False,Small,Low
+ORD000363,2024-02-05,CUST00363,Water Bottle,Home & Kitchen,15.58,3,,Seattle,46.74,True,0,46.74,0.0,2024.0,2.0,February,Monday,1.0,359.0,False,Medium,Medium
+ORD000364,2024-08-02,CUST00070,Baseball Cap,Clothing,18.11,3,,New York,54.33,True,0,54.33,0.0,2024.0,8.0,August,Friday,3.0,180.0,True,Medium,Medium
+ORD000365,2024-12-28,CUST00365,Resistance Bands,Health & Beauty,,1,LOYALTY25,Phoenix,0.0,True,25,0.0,0.0,2024.0,12.0,December,Saturday,4.0,32.0,False,Small,Low
+ORD000366,2024-06-21,CUST00366,Mechanical Keyboard,Electronics,91.99,3,SAVE15,Houston,234.57,True,15,275.97,41.4,2024.0,6.0,June,Friday,2.0,222.0,True,Medium,High
+ORD000367,2024-06-30,CUST00070,Lunch Box Set,Home & Kitchen,26.67,2,,Detroit,53.34,True,0,53.34,0.0,2024.0,6.0,June,Sunday,2.0,213.0,True,Medium,Medium
+ORD000368,2024-11-08,CUST00013,Sunscreen SPF50,Health & Beauty,15.82,1,,New York,15.82,True,0,15.82,0.0,2024.0,11.0,November,Friday,4.0,82.0,False,Small,Low
+ORD000369,2024-03-20,CUST00035,Hair Dryer,Health & Beauty,39.29,4,,Los Angeles,157.16,True,0,157.16,0.0,2024.0,3.0,March,Wednesday,1.0,315.0,True,Large,High
+ORD000370,2024-04-23,CUST00068,Power Bank,Electronics,43.75,2,,San Diego,87.5,True,0,87.5,0.0,2024.0,4.0,April,Tuesday,2.0,281.0,True,Medium,High
+ORD000371,2024-09-26,CUST00006,Webcam HD,Electronics,66.98,1,,Salt Lake City,66.98,True,0,66.98,0.0,2024.0,9.0,September,Thursday,3.0,125.0,True,Small,Medium
+ORD000372,2024-02-21,CUST00372,Audiobook Subscription,Books & Media,10.15,1,,Indianapolis,10.15,True,0,10.15,0.0,2024.0,2.0,February,Wednesday,1.0,343.0,False,Small,Low
+ORD000373,2024-09-13,CUST00373,Wireless Mouse,Electronics,27.86,4,,Denver,111.44,True,0,111.44,0.0,2024.0,9.0,September,Friday,3.0,138.0,True,Large,High
+ORD000374,2024-06-07,CUST00060,Art Supplies Set,Books & Media,32.69,1,,Minneapolis,32.69,True,0,32.69,0.0,2024.0,6.0,June,Friday,2.0,236.0,False,Small,Low
+ORD000375,2024-10-09,CUST00375,Electric Kettle,Home & Kitchen,34.8,1,VIP40,Raleigh,20.88,True,40,34.8,13.92,2024.0,10.0,October,Wednesday,4.0,112.0,False,Small,Low
+ORD000376,2024-08-16,CUST00376,Mechanical Keyboard,Electronics,,2,,Denver,0.0,True,0,0.0,0.0,2024.0,8.0,August,Friday,3.0,166.0,False,Medium,Low
+ORD000377,2024-05-06,CUST00038,Blender,Home & Kitchen,41.54,2,HOLIDAY15,Columbus,70.62,True,15,83.08,12.46,2024.0,5.0,May,Monday,2.0,268.0,True,Medium,Medium
+ORD000378,2024-12-01,CUST00378,Smartphone Case,Electronics,24.41,2,,San Jose,48.82,True,0,48.82,0.0,2024.0,12.0,December,Sunday,4.0,59.0,False,Medium,Medium
+ORD000379,2024-02-13,CUST00379,Cotton T-Shirt,Clothing,18.43,1,,Seattle,18.43,True,0,18.43,0.0,2024.0,2.0,February,Tuesday,1.0,351.0,False,Small,Low
+ORD000380,2024-12-13,CUST00380,Face Moisturizer,Health & Beauty,24.15,2,,Indianapolis,48.3,True,0,48.3,0.0,2024.0,12.0,December,Friday,4.0,47.0,False,Medium,Medium
+ORD000381,2025-01-13,CUST00381,Shampoo Set,Health & Beauty,18.81,1,,Charlotte,18.81,True,0,18.81,0.0,2025.0,1.0,January,Monday,1.0,16.0,False,Small,Low
+ORD000382,2024-02-24,CUST00036,USB-C Cable,Electronics,12.98,3,,Tampa,38.94,True,0,38.94,0.0,2024.0,2.0,February,Saturday,1.0,340.0,False,Medium,Medium
+ORD000383,2024-04-21,CUST00030,Electric Toothbrush,Health & Beauty,49.11,1,,Austin,49.11,True,0,49.11,0.0,2024.0,4.0,April,Sunday,2.0,283.0,False,Small,Medium
+ORD000384,2024-05-28,CUST00048,Cotton T-Shirt,Clothing,18.58,1,,Minneapolis,18.58,True,0,18.58,0.0,2024.0,5.0,May,Tuesday,2.0,246.0,False,Small,Low
+ORD000385,2024-05-16,CUST00041,Resistance Bands,Health & Beauty,19.75,1,LOYALTY25,Los Angeles,14.81,True,25,19.75,4.94,2024.0,5.0,May,Thursday,2.0,258.0,False,Small,Low
+ORD000386,2024-09-27,CUST00386,Journal Notebook,Books & Media,12.1,5,,Portland,60.5,True,0,60.5,0.0,2024.0,9.0,September,Friday,3.0,124.0,True,Large,Medium
+ORD000387,2024-10-31,,Journal Notebook,Books & Media,13.48,2,,Phoenix,26.96,True,0,26.96,0.0,2024.0,10.0,October,Thursday,4.0,90.0,False,Medium,Low
+ORD000388,2024-04-24,CUST00388,Water Bottle,Home & Kitchen,14.08,1,,Orlando,14.08,True,0,14.08,0.0,2024.0,4.0,April,Wednesday,2.0,280.0,False,Small,Low
+ORD000389,2024-07-18,CUST00389,Journal Notebook,Books & Media,12.69,1,,San Jose,12.69,True,0,12.69,0.0,2024.0,7.0,July,Thursday,3.0,195.0,False,Small,Low
+ORD000390,2024-08-20,CUST00390,Fiction Bestseller,Books & Media,,2,WELCOME5,Atlanta,0.0,True,5,0.0,0.0,2024.0,8.0,August,Tuesday,3.0,162.0,False,Medium,Low
+ORD000391,2024-06-03,CUST00391,Hair Dryer,Health & Beauty,41.67,2,SAVE20,Kansas City,66.67,True,20,83.34,16.67,2024.0,6.0,June,Monday,2.0,240.0,True,Medium,Medium
+ORD000392,2024-01-29,CUST00392,Water Bottle,Home & Kitchen,14.39,2,,Houston,28.78,True,0,28.78,0.0,2024.0,1.0,January,Monday,1.0,366.0,False,Medium,Low
+ORD000393,2024-02-19,CUST00393,Casual Dress,Clothing,59.76,1,FREESHIP,Atlanta,59.76,True,0,59.76,0.0,2024.0,2.0,February,Monday,1.0,345.0,True,Small,Medium
+ORD000394,2024-09-08,CUST00394,Lunch Box Set,Home & Kitchen,23.31,1,,San Francisco,23.31,True,0,23.31,0.0,2024.0,9.0,September,Sunday,3.0,143.0,False,Small,Low
+ORD000395,2024-11-17,CUST00395,Electric Toothbrush,Health & Beauty,53.71,3,,San Jose,161.13,True,0,161.13,0.0,2024.0,11.0,November,Sunday,4.0,73.0,True,Medium,High
+ORD000396,2024-09-20,CUST00396,Blender,Home & Kitchen,43.4,2,,Salt Lake City,86.8,True,0,86.8,0.0,2024.0,9.0,September,Friday,3.0,131.0,True,Medium,High
+ORD000397,2024-09-07,CUST00397,USB-C Cable,Electronics,14.09,1,,Seattle,14.09,True,0,14.09,0.0,2024.0,9.0,September,Saturday,3.0,144.0,False,Small,Low
+ORD000398,2024-03-16,CUST00019,Water Bottle,Home & Kitchen,13.87,1,LOYALTY25,Nashville,10.4,True,25,13.87,3.47,2024.0,3.0,March,Saturday,1.0,319.0,False,Small,Low
+ORD000399,2024-02-15,CUST00399,Cotton T-Shirt,Clothing,18.26,2,,Salt Lake City,36.52,True,0,36.52,0.0,2024.0,2.0,February,Thursday,1.0,349.0,False,Medium,Medium
+ORD000400,2024-06-06,CUST00400,Sports Shorts,Clothing,27.95,2,,San Diego,55.9,True,0,55.9,0.0,2024.0,6.0,June,Thursday,2.0,237.0,True,Medium,Medium
+ORD000401,2024-10-17,CUST00013,Food Container Set,Home & Kitchen,32.1,1,,Philadelphia,32.1,True,0,32.1,0.0,2024.0,10.0,October,Thursday,4.0,104.0,False,Small,Low
+ORD000402,2024-06-24,CUST00015,Resistance Bands,Health & Beauty,19.97,1,LOYALTY25,Los Angeles,14.98,True,25,19.97,4.99,2024.0,6.0,June,Monday,2.0,219.0,False,Small,Low
+ORD000403,2024-08-11,CUST00055,Blender,Home & Kitchen,49.62,3,,Seattle,148.86,True,0,148.86,0.0,2024.0,8.0,August,Sunday,3.0,171.0,True,Medium,High
+ORD000404,2024-08-08,CUST00404,USB-C Cable,Electronics,11.86,5,,Minneapolis,59.3,True,0,59.3,0.0,2024.0,8.0,August,Thursday,3.0,174.0,True,Large,Medium
+ORD000405,2024-12-10,CUST00405,Baseball Cap,Clothing,18.59,4,,Portland,74.36,True,0,74.36,0.0,2024.0,12.0,December,Tuesday,4.0,50.0,True,Large,High
+ORD000406,2024-02-12,CUST00406,Python Programming Book,Books & Media,49.24,1,,Phoenix,49.24,True,0,49.24,0.0,2024.0,2.0,February,Monday,1.0,352.0,True,Small,Medium
+ORD000407,2024-09-26,CUST00407,Leather Belt,Clothing,33.9,3,,Nashville,101.7,True,0,101.7,0.0,2024.0,9.0,September,Thursday,3.0,125.0,True,Medium,High
+ORD000408,2024-10-27,CUST00408,Sneakers,Clothing,79.85,1,,Atlanta,79.85,True,0,79.85,0.0,2024.0,10.0,October,Sunday,4.0,94.0,True,Small,High
+ORD000409,2024-02-13,CUST00409,Audiobook Subscription,Books & Media,10.93,2,,San Jose,21.86,True,0,21.86,0.0,2024.0,2.0,February,Tuesday,1.0,351.0,False,Medium,Low
+ORD000410,2024-07-08,CUST00410,Journal Notebook,Books & Media,14.27,1,SAVE25,San Diego,10.7,True,25,14.27,3.57,2024.0,7.0,July,Monday,3.0,205.0,False,Small,Low
+ORD000411,2024-02-04,CUST00411,Audiobook Subscription,Books & Media,10.02,1,HOLIDAY15,Detroit,8.52,True,15,10.02,1.5,2024.0,2.0,February,Sunday,1.0,360.0,False,Small,Low
+ORD000412,2024-09-26,CUST00412,Sneakers,Clothing,81.83,1,,Atlanta,81.83,True,0,81.83,0.0,2024.0,9.0,September,Thursday,3.0,125.0,True,Small,High
+ORD000413,2024-05-10,CUST00413,Power Bank,Electronics,41.34,1,,Portland,41.34,True,0,41.34,0.0,2024.0,5.0,May,Friday,2.0,264.0,False,Small,Medium
+ORD000414,2024-04-27,CUST00414,Casual Dress,Clothing,60.17,2,,Indianapolis,120.34,True,0,120.34,0.0,2024.0,4.0,April,Saturday,2.0,277.0,True,Medium,High
+ORD000415,2024-12-07,CUST00415,Sunscreen SPF50,Health & Beauty,16.29,2,SAVE25,Seattle,24.43,True,25,32.58,8.14,2024.0,12.0,December,Saturday,4.0,53.0,False,Medium,Low
+ORD000416,2024-12-05,,Wool Sweater,Clothing,56.6,1,,Denver,56.6,True,0,56.6,0.0,2024.0,12.0,December,Thursday,4.0,55.0,True,Small,Medium
+ORD000417,2024-02-03,CUST00035,Coffee Maker,Home & Kitchen,57.09,3,,Philadelphia,171.27,True,0,171.27,0.0,2024.0,2.0,February,Saturday,1.0,361.0,True,Medium,High
+ORD000418,2024-02-17,CUST00418,Journal Notebook,Books & Media,13.44,3,,Kansas City,40.32,True,0,40.32,0.0,2024.0,2.0,February,Saturday,1.0,347.0,False,Medium,Medium
+ORD000419,2024-10-10,CUST00012,Electric Kettle,Home & Kitchen,32.35,3,,Detroit,97.05,True,0,97.05,0.0,2024.0,10.0,October,Thursday,4.0,111.0,True,Medium,High
+ORD000420,2024-08-12,CUST00076,Mechanical Keyboard,Electronics,90.59,2,SUMMER10,Boston,163.06,True,10,181.18,18.12,2024.0,8.0,August,Monday,3.0,170.0,True,Medium,High
+ORD000421,2024-12-11,CUST00421,Vitamin Supplements,Health & Beauty,26.7,2,,Charlotte,53.4,True,0,53.4,0.0,2024.0,12.0,December,Wednesday,4.0,49.0,True,Medium,Medium
+ORD000422,2024-10-15,CUST00422,Art Supplies Set,Books & Media,31.55,4,,San Francisco,126.2,True,0,126.2,0.0,2024.0,10.0,October,Tuesday,4.0,106.0,True,Large,High
+ORD000423,2024-12-10,CUST00423,Laptop Stand,Electronics,42.92,3,,Atlanta,128.76,True,0,128.76,0.0,2024.0,12.0,December,Tuesday,4.0,50.0,True,Medium,High
+ORD000424,2024-02-18,CUST00424,Massage Gun,Health & Beauty,83.79,1,SAVE10,Tampa,75.41,True,10,83.79,8.38,2024.0,2.0,February,Sunday,1.0,346.0,True,Small,High
+ORD000425,2024-04-05,CUST00084,Electric Kettle,Home & Kitchen,36.29,2,,Atlanta,72.58,True,0,72.58,0.0,2024.0,4.0,April,Friday,2.0,299.0,True,Medium,High
+ORD000426,2024-08-04,CUST00426,Face Moisturizer,Health & Beauty,20.79,1,,Minneapolis,20.79,True,0,20.79,0.0,2024.0,8.0,August,Sunday,3.0,178.0,False,Small,Low
+ORD000427,2024-05-28,CUST00048,Electric Kettle,Home & Kitchen,32.31,2,,San Francisco,64.62,True,0,64.62,0.0,2024.0,5.0,May,Tuesday,2.0,246.0,True,Medium,Medium
+ORD000428,2024-09-25,CUST00428,Cookbook,Books & Media,30.59,5,FREESHIP,San Antonio,152.95,True,0,152.95,0.0,2024.0,9.0,September,Wednesday,3.0,126.0,True,Large,High
+ORD000429,2024-12-31,CUST00429,Wireless Earbuds,Electronics,79.49,3,,Denver,238.47,True,0,238.47,0.0,2024.0,12.0,December,Tuesday,4.0,29.0,True,Medium,High
+ORD000430,2024-05-15,CUST00430,Casual Dress,Clothing,65.26,1,,Raleigh,65.26,True,0,65.26,0.0,2024.0,5.0,May,Wednesday,2.0,259.0,True,Small,Medium
+ORD000431,2024-02-06,CUST00431,Sneakers,Clothing,80.05,4,,Phoenix,320.2,True,0,320.2,0.0,2024.0,2.0,February,Tuesday,1.0,358.0,True,Large,High
+ORD000432,2024-06-07,CUST00432,Self-Help Book,Books & Media,16.2,1,,San Francisco,16.2,True,0,16.2,0.0,2024.0,6.0,June,Friday,2.0,236.0,False,Small,Low
+ORD000433,2024-12-17,CUST00433,Python Programming Book,Books & Media,42.19,1,HOLIDAY15,Dallas,35.86,True,15,42.19,6.33,2024.0,12.0,December,Tuesday,4.0,43.0,False,Small,Medium
+ORD000434,2024-09-06,CUST00434,Blender,Home & Kitchen,44.61,1,SAVE20,Raleigh,35.69,True,20,44.61,8.92,2024.0,9.0,September,Friday,3.0,145.0,False,Small,Medium
+ORD000435,2024-08-16,CUST00435,Knife Set,Home & Kitchen,56.94,3,FREESHIP,Orlando,170.82,True,0,170.82,0.0,2024.0,8.0,August,Friday,3.0,166.0,True,Medium,High
+ORD000436,2024-09-17,CUST00436,Casual Dress,Clothing,61.89,1,WINTER20,Miami,49.51,True,20,61.89,12.38,2024.0,9.0,September,Tuesday,3.0,134.0,True,Small,Medium
+ORD000437,2024-06-29,CUST00437,Monitor Light,Electronics,38.15,1,,Philadelphia,38.15,True,0,38.15,0.0,2024.0,6.0,June,Saturday,2.0,214.0,False,Small,Medium
+ORD000438,2024-12-15,CUST00039,Art Supplies Set,Books & Media,36.64,4,,Minneapolis,146.56,True,0,146.56,0.0,2024.0,12.0,December,Sunday,4.0,45.0,True,Large,High
+ORD000439,2024-08-19,CUST00055,Casual Dress,Clothing,56.23,2,SUMMER10,Austin,101.21,True,10,112.46,11.25,2024.0,8.0,August,Monday,3.0,163.0,True,Medium,High
+ORD000440,2024-09-11,CUST00440,Self-Help Book,Books & Media,13.94,1,,Kansas City,13.94,True,0,13.94,0.0,2024.0,9.0,September,Wednesday,3.0,140.0,False,Small,Low
+ORD000441,2024-09-09,CUST00441,Shampoo Set,Health & Beauty,18.44,2,,New York,36.88,True,0,36.88,0.0,2024.0,9.0,September,Monday,3.0,142.0,False,Medium,Medium
+ORD000442,,CUST00442,Audiobook Subscription,Books & Media,10.61,1,,Salt Lake City,10.61,True,0,10.61,0.0,,,,,,,False,Small,Low
+ORD000443,2024-03-15,CUST00084,Board Game,Books & Media,31.14,3,,Minneapolis,93.42,True,0,93.42,0.0,2024.0,3.0,March,Friday,1.0,320.0,True,Medium,High
+ORD000444,2024-02-29,CUST00002,Blender,Home & Kitchen,48.9,2,SAVE10,San Antonio,88.02,True,10,97.8,9.78,2024.0,2.0,February,Thursday,1.0,335.0,True,Medium,High
+ORD000445,,CUST00445,Smartphone Case,Electronics,23.32,1,,Atlanta,23.32,True,0,23.32,0.0,,,,,,,False,Small,Low
+ORD000446,2024-12-03,CUST00446,Art Supplies Set,Books & Media,37.43,2,,Las Vegas,74.86,True,0,74.86,0.0,2024.0,12.0,December,Tuesday,4.0,57.0,True,Medium,High
+ORD000447,2024-05-13,CUST00447,Vitamin Supplements,Health & Beauty,24.6,1,FREESHIP,Boston,24.6,True,0,24.6,0.0,2024.0,5.0,May,Monday,2.0,261.0,False,Small,Low
+ORD000448,2024-09-12,CUST00448,Food Container Set,Home & Kitchen,28.31,3,,Minneapolis,84.93,True,0,84.93,0.0,2024.0,9.0,September,Thursday,3.0,139.0,True,Medium,High
+ORD000449,2024-12-15,CUST00449,Fiction Bestseller,Books & Media,17.4,1,,Orlando,17.4,True,0,17.4,0.0,2024.0,12.0,December,Sunday,4.0,45.0,False,Small,Low
+ORD000450,2024-10-27,CUST00003,Wool Sweater,Clothing,53.42,1,,Indianapolis,53.42,True,0,53.42,0.0,2024.0,10.0,October,Sunday,4.0,94.0,True,Small,Medium
+ORD000451,2024-07-15,CUST00451,Shampoo Set,Health & Beauty,20.5,3,,Minneapolis,61.5,True,0,61.5,0.0,2024.0,7.0,July,Monday,3.0,198.0,True,Medium,Medium
+ORD000452,2024-11-23,CUST00452,Monitor Light,Electronics,31.78,1,,Columbus,31.78,True,0,31.78,0.0,2024.0,11.0,November,Saturday,4.0,67.0,False,Small,Low
+ORD000453,2024-07-20,CUST00453,Blender,Home & Kitchen,49.2,1,,Nashville,49.2,True,0,49.2,0.0,2024.0,7.0,July,Saturday,3.0,193.0,True,Small,Medium
+ORD000454,2024-12-03,CUST00454,Food Container Set,Home & Kitchen,29.52,1,,Boston,29.52,True,0,29.52,0.0,2024.0,12.0,December,Tuesday,4.0,57.0,False,Small,Low
+ORD000455,2024-10-06,CUST00455,Webcam HD,Electronics,67.4,5,SAVE10,Denver,303.3,True,10,337.0,33.7,2024.0,10.0,October,Sunday,4.0,115.0,True,Large,High
+ORD000456,2024-10-08,,Art Supplies Set,Books & Media,37.69,2,,Raleigh,75.38,True,0,75.38,0.0,2024.0,10.0,October,Tuesday,4.0,113.0,True,Medium,High
+ORD000457,2024-04-30,CUST00457,First Aid Kit,Health & Beauty,30.9,2,,Salt Lake City,61.8,True,0,61.8,0.0,2024.0,4.0,April,Tuesday,2.0,274.0,True,Medium,Medium
+ORD000458,2024-10-08,CUST00458,Winter Jacket,Clothing,91.85,2,,Nashville,183.7,True,0,183.7,0.0,2024.0,10.0,October,Tuesday,4.0,113.0,True,Medium,High
+ORD000459,2024-09-30,,Wool Sweater,Clothing,56.39,1,FREESHIP,Houston,56.39,True,0,56.39,0.0,2024.0,9.0,September,Monday,3.0,121.0,True,Small,Medium
+ORD000460,2024-12-02,CUST00460,Face Moisturizer,Health & Beauty,22.3,1,,Charlotte,22.3,True,0,22.3,0.0,2024.0,12.0,December,Monday,4.0,58.0,False,Small,Low
+ORD000461,2024-09-04,CUST00092,Art Supplies Set,Books & Media,32.06,1,,Atlanta,32.06,True,0,32.06,0.0,2024.0,9.0,September,Wednesday,3.0,147.0,False,Small,Low
+ORD000462,2024-12-06,CUST00462,Board Game,Books & Media,31.38,1,SUMMER10,Phoenix,28.24,True,10,31.38,3.14,2024.0,12.0,December,Friday,4.0,54.0,False,Small,Low
+ORD000463,2024-04-05,CUST00463,Denim Jeans,Clothing,51.01,1,WINTER20,San Jose,40.81,True,20,51.01,10.2,2024.0,4.0,April,Friday,2.0,299.0,False,Small,Medium
+ORD000464,2024-11-12,CUST00464,Wool Sweater,Clothing,51.86,3,,Houston,155.58,True,0,155.58,0.0,2024.0,11.0,November,Tuesday,4.0,78.0,True,Medium,High
+ORD000465,2024-11-21,CUST00018,Hair Dryer,Health & Beauty,42.08,2,LOYALTY25,Austin,63.12,True,25,84.16,21.04,2024.0,11.0,November,Thursday,4.0,69.0,True,Medium,Medium
+ORD000466,2024-08-29,CUST00466,USB-C Cable,Electronics,13.53,2,,Charlotte,27.06,True,0,27.06,0.0,2024.0,8.0,August,Thursday,3.0,153.0,False,Medium,Low
+ORD000467,2024-10-09,CUST00061,Vitamin Supplements,Health & Beauty,23.09,4,SAVE10,Dallas,83.12,True,10,92.36,9.24,2024.0,10.0,October,Wednesday,4.0,112.0,True,Large,High
+ORD000468,2024-02-08,CUST00468,Webcam HD,Electronics,69.11,1,,Austin,69.11,True,0,69.11,0.0,2024.0,2.0,February,Thursday,1.0,356.0,True,Small,Medium
+ORD000469,2024-08-11,CUST00469,Power Bank,Electronics,49.14,1,,San Jose,49.14,True,0,49.14,0.0,2024.0,8.0,August,Sunday,3.0,171.0,False,Small,Medium
+ORD000470,2024-11-16,CUST00470,Puzzle 1000pc,Books & Media,21.0,1,SAVE10,Austin,18.9,True,10,21.0,2.1,2024.0,11.0,November,Saturday,4.0,74.0,False,Small,Low
+ORD000471,2024-12-26,CUST00072,Water Bottle,Home & Kitchen,15.19,1,,Portland,15.19,True,0,15.19,0.0,2024.0,12.0,December,Thursday,4.0,34.0,False,Small,Low
+ORD000472,2024-09-03,CUST00060,Shampoo Set,Health & Beauty,19.57,1,HOLIDAY15,Dallas,16.63,True,15,19.57,2.94,2024.0,9.0,September,Tuesday,3.0,148.0,False,Small,Low
+ORD000473,2024-10-15,CUST00473,Denim Jeans,Clothing,48.94,1,SUMMER10,Dallas,44.05,True,10,48.94,4.89,2024.0,10.0,October,Tuesday,4.0,106.0,False,Small,Medium
+ORD000474,2025-01-12,CUST00474,,Home & Kitchen,24.2,1,,New York,24.2,True,0,24.2,0.0,2025.0,1.0,January,Sunday,1.0,17.0,False,Small,Low
+ORD000475,2025-01-06,CUST00475,Puzzle 1000pc,Books & Media,18.32,3,,Las Vegas,54.96,True,0,54.96,0.0,2025.0,1.0,January,Monday,1.0,23.0,True,Medium,Medium
+ORD000476,2024-04-15,CUST00476,Smartphone Case,Electronics,24.8,4,,San Diego,99.2,True,0,99.2,0.0,2024.0,4.0,April,Monday,2.0,289.0,True,Large,High
+ORD000477,2024-05-08,CUST00064,Cotton T-Shirt,Clothing,19.11,3,,San Antonio,57.33,True,0,57.33,0.0,2024.0,5.0,May,Wednesday,2.0,266.0,True,Medium,Medium
+ORD000478,2024-10-31,CUST00478,First Aid Kit,Health & Beauty,28.04,2,,Phoenix,56.08,True,0,56.08,0.0,2024.0,10.0,October,Thursday,4.0,90.0,True,Medium,Medium
+ORD000479,2025-01-04,CUST00479,Shampoo Set,Health & Beauty,19.68,3,VIP40,Tampa,35.42,True,40,59.04,23.62,2025.0,1.0,January,Saturday,1.0,25.0,False,Medium,Medium
+ORD000480,2024-09-25,CUST00480,Bluetooth Speaker,Electronics,45.46,3,,Austin,136.38,True,0,136.38,0.0,2024.0,9.0,September,Wednesday,3.0,126.0,True,Medium,High
+ORD000481,2024-02-23,CUST00481,Air Fryer,Home & Kitchen,86.92,1,,New York,86.92,True,0,86.92,0.0,2024.0,2.0,February,Friday,1.0,341.0,True,Small,High
+ORD000482,2024-07-08,CUST00482,Leather Belt,Clothing,37.05,4,,Minneapolis,148.2,True,0,148.2,0.0,2024.0,7.0,July,Monday,3.0,205.0,True,Large,High
+ORD000483,2025-01-05,CUST00017,Mechanical Keyboard,Electronics,81.98,2,,Houston,163.96,True,0,163.96,0.0,2025.0,1.0,January,Sunday,1.0,24.0,True,Medium,High
+ORD000484,2024-12-18,CUST00484,Art Supplies Set,Books & Media,34.74,1,,Houston,34.74,True,0,34.74,0.0,2024.0,12.0,December,Wednesday,4.0,42.0,False,Small,Medium
+ORD000485,2024-02-19,CUST00485,Electric Kettle,Home & Kitchen,32.37,2,,Atlanta,64.74,True,0,64.74,0.0,2024.0,2.0,February,Monday,1.0,345.0,True,Medium,Medium
+ORD000486,2024-07-17,CUST00486,Resistance Bands,Health & Beauty,18.58,1,,Seattle,18.58,True,0,18.58,0.0,2024.0,7.0,July,Wednesday,3.0,196.0,False,Small,Low
+ORD000487,2024-07-10,CUST00026,Blender,Home & Kitchen,44.53,2,,Miami,89.06,True,0,89.06,0.0,2024.0,7.0,July,Wednesday,3.0,203.0,True,Medium,High
+ORD000488,,CUST00488,Bluetooth Speaker,Electronics,,1,HOLIDAY15,Raleigh,0.0,True,15,0.0,0.0,,,,,,,False,Small,Low
+ORD000489,2024-07-17,CUST00015,Water Bottle,Home & Kitchen,14.81,2,,Seattle,29.62,True,0,29.62,0.0,2024.0,7.0,July,Wednesday,3.0,196.0,False,Medium,Low
+ORD000490,2024-04-16,CUST00023,Denim Jeans,Clothing,45.2,2,,Salt Lake City,90.4,True,0,90.4,0.0,2024.0,4.0,April,Tuesday,2.0,288.0,True,Medium,High
+ORD000491,2024-11-30,CUST00491,Smartphone Case,Electronics,23.21,4,,San Antonio,92.84,True,0,92.84,0.0,2024.0,11.0,November,Saturday,4.0,60.0,True,Large,High
+ORD000492,2024-10-16,CUST00020,Winter Jacket,Clothing,91.06,2,,Columbus,182.12,True,0,182.12,0.0,2024.0,10.0,October,Wednesday,4.0,105.0,True,Medium,High
+ORD000493,2024-08-01,CUST00493,Electric Toothbrush,Health & Beauty,49.98,1,,Seattle,49.98,True,0,49.98,0.0,2024.0,8.0,August,Thursday,3.0,181.0,True,Small,Medium
+ORD000494,2024-05-01,CUST00026,Cookbook,Books & Media,29.37,1,,Detroit,29.37,True,0,29.37,0.0,2024.0,5.0,May,Wednesday,2.0,273.0,False,Small,Low
+ORD000495,2024-02-06,,Electric Toothbrush,Health & Beauty,49.25,1,,Salt Lake City,49.25,True,0,49.25,0.0,2024.0,2.0,February,Tuesday,1.0,358.0,True,Small,Medium
+ORD000496,2024-09-28,CUST00496,Laptop Stand,Electronics,43.4,1,SAVE10,Las Vegas,39.06,True,10,43.4,4.34,2024.0,9.0,September,Saturday,3.0,123.0,False,Small,Medium
+ORD000497,2024-03-26,CUST00497,Shampoo Set,Health & Beauty,17.12,1,,Salt Lake City,17.12,True,0,17.12,0.0,2024.0,3.0,March,Tuesday,1.0,309.0,False,Small,Low
+ORD000498,2024-08-06,CUST00093,Knife Set,Home & Kitchen,52.06,2,,Miami,104.12,True,0,104.12,0.0,2024.0,8.0,August,Tuesday,3.0,176.0,True,Medium,High
+ORD000499,2024-09-02,CUST00499,Webcam HD,Electronics,64.94,3,,Raleigh,194.82,True,0,194.82,0.0,2024.0,9.0,September,Monday,3.0,149.0,True,Medium,High
+ORD000500,2024-10-17,CUST00076,Power Bank,Electronics,47.56,4,FLASH30,Detroit,133.17,True,30,190.24,57.07,2024.0,10.0,October,Thursday,4.0,104.0,True,Large,High
+ORD000501,2024-04-21,CUST00501,Casual Dress,Clothing,65.53,2,,Philadelphia,131.06,True,0,131.06,0.0,2024.0,4.0,April,Sunday,2.0,283.0,True,Medium,High
+ORD000502,2024-06-09,CUST00038,Yoga Mat,Health & Beauty,29.72,1,FLASH30,Columbus,20.8,True,30,29.72,8.92,2024.0,6.0,June,Sunday,2.0,234.0,False,Small,Low
+ORD000503,2024-04-30,CUST00027,Running Shoes,Clothing,95.71,2,WINTER20,San Jose,153.14,True,20,191.42,38.28,2024.0,4.0,April,Tuesday,2.0,274.0,True,Medium,High
+ORD000504,2024-05-21,CUST00504,Hair Dryer,Health & Beauty,39.67,2,,San Jose,79.34,True,0,79.34,0.0,2024.0,5.0,May,Tuesday,2.0,253.0,True,Medium,High
+ORD000505,2024-08-15,CUST00080,Board Game,Books & Media,29.3,2,,Houston,58.6,True,0,58.6,0.0,2024.0,8.0,August,Thursday,3.0,167.0,True,Medium,Medium
+ORD000506,2025-01-07,CUST00506,Knife Set,Home & Kitchen,54.01,2,FLASH30,Chicago,75.61,True,30,108.02,32.41,2025.0,1.0,January,Tuesday,1.0,22.0,True,Medium,High
+ORD000507,2024-12-08,CUST00507,Art Supplies Set,Books & Media,33.9,1,SAVE10,New York,30.51,True,10,33.9,3.39,2024.0,12.0,December,Sunday,4.0,52.0,False,Small,Low
+ORD000508,2025-01-15,CUST00508,Knife Set,Home & Kitchen,58.51,3,SAVE10,Minneapolis,157.98,True,10,175.53,17.55,2025.0,1.0,January,Wednesday,1.0,14.0,True,Medium,High
+ORD000509,2024-07-17,CUST00092,Monitor Light,Electronics,33.0,2,,Salt Lake City,66.0,True,0,66.0,0.0,2024.0,7.0,July,Wednesday,3.0,196.0,True,Medium,Medium
+ORD000510,2024-07-27,CUST00510,Lunch Box Set,Home & Kitchen,27.03,1,SAVE10,New York,24.33,True,10,27.03,2.7,2024.0,7.0,July,Saturday,3.0,186.0,False,Small,Low
+ORD000511,2024-04-10,CUST00066,Webcam HD,Electronics,67.51,2,,San Francisco,135.02,True,0,135.02,0.0,2024.0,4.0,April,Wednesday,2.0,294.0,True,Medium,High
+ORD000512,2024-08-02,CUST00029,Laptop Stand,Electronics,41.19,1,SAVE25,Boston,30.89,True,25,41.19,10.3,2024.0,8.0,August,Friday,3.0,180.0,False,Small,Low
+ORD000513,2024-03-04,CUST00513,Fiction Bestseller,Books & Media,16.42,2,,Austin,32.84,True,0,32.84,0.0,2024.0,3.0,March,Monday,1.0,331.0,False,Medium,Low
+ORD000514,2024-09-29,CUST00514,Bluetooth Speaker,Electronics,45.2,2,SAVE25,Raleigh,67.8,True,25,90.4,22.6,2024.0,9.0,September,Sunday,3.0,122.0,True,Medium,Medium
+ORD000515,2024-05-16,CUST00515,Hair Dryer,Health & Beauty,41.9,1,FREESHIP,Salt Lake City,41.9,True,0,41.9,0.0,2024.0,5.0,May,Thursday,2.0,258.0,False,Small,Medium
+ORD000516,2024-05-19,CUST00007,Kitchen Scale,Home & Kitchen,20.42,1,,Miami,20.42,True,0,20.42,0.0,2024.0,5.0,May,Sunday,2.0,255.0,False,Small,Low
+ORD000517,2024-04-13,CUST00517,Kitchen Scale,Home & Kitchen,20.02,1,,Philadelphia,20.02,True,0,20.02,0.0,2024.0,4.0,April,Saturday,2.0,291.0,False,Small,Low
+ORD000518,2024-09-18,CUST00047,Art Supplies Set,Books & Media,32.67,1,,Raleigh,32.67,True,0,32.67,0.0,2024.0,9.0,September,Wednesday,3.0,133.0,False,Small,Low
+ORD000519,,CUST00519,Food Container Set,Home & Kitchen,31.35,1,,Miami,31.35,True,0,31.35,0.0,,,,,,,False,Small,Low
+ORD000520,2024-09-28,CUST00520,Baseball Cap,Clothing,17.65,1,,Raleigh,17.65,True,0,17.65,0.0,2024.0,9.0,September,Saturday,3.0,123.0,False,Small,Low
+ORD000521,2024-10-31,CUST00098,Self-Help Book,Books & Media,15.8,2,,Charlotte,31.6,True,0,31.6,0.0,2024.0,10.0,October,Thursday,4.0,90.0,False,Medium,Low
+ORD000522,2024-07-19,CUST00522,USB-C Cable,Electronics,12.37,1,,Dallas,12.37,True,0,12.37,0.0,2024.0,7.0,July,Friday,3.0,194.0,False,Small,Low
+ORD000523,2025-01-11,CUST00523,Monitor Light,Electronics,37.86,3,VIP40,Dallas,68.15,True,40,113.58,45.43,2025.0,1.0,January,Saturday,1.0,18.0,True,Medium,Medium
+ORD000524,2024-03-01,CUST00074,Sneakers,Clothing,76.29,1,,Charlotte,76.29,True,0,76.29,0.0,2024.0,3.0,March,Friday,1.0,334.0,True,Small,High
+ORD000525,2024-08-23,CUST00048,Air Fryer,Home & Kitchen,84.55,1,,Miami,84.55,True,0,84.55,0.0,2024.0,8.0,August,Friday,3.0,159.0,True,Small,High
+ORD000526,2024-08-28,CUST00526,Yoga Mat,Health & Beauty,32.2,1,VIP40,Houston,19.32,True,40,32.2,12.88,2024.0,8.0,August,Wednesday,3.0,154.0,False,Small,Low
+ORD000527,2024-01-19,CUST00527,Smartphone Case,Electronics,23.55,2,,Portland,47.1,True,0,47.1,0.0,2024.0,1.0,January,Friday,1.0,376.0,False,Medium,Medium
+ORD000528,2024-06-25,CUST00528,Running Shoes,Clothing,87.8,1,,Austin,87.8,True,0,87.8,0.0,2024.0,6.0,June,Tuesday,2.0,218.0,True,Small,High
+ORD000529,2024-10-13,CUST00090,,Home & Kitchen,24.75,2,,Portland,49.5,True,0,49.5,0.0,2024.0,10.0,October,Sunday,4.0,108.0,True,Medium,Medium
+ORD000530,2024-06-30,CUST00530,Electric Kettle,Home & Kitchen,34.88,2,,Seattle,69.76,True,0,69.76,0.0,2024.0,6.0,June,Sunday,2.0,213.0,True,Medium,Medium
+ORD000531,2024-04-24,CUST00531,First Aid Kit,Health & Beauty,31.7,2,HOLIDAY15,Salt Lake City,53.89,True,15,63.4,9.51,2024.0,4.0,April,Wednesday,2.0,280.0,True,Medium,Medium
+ORD000532,2024-10-18,CUST00028,Blender,Home & Kitchen,42.36,5,FLASH30,Indianapolis,148.26,True,30,211.8,63.54,2024.0,10.0,October,Friday,4.0,103.0,True,Large,High
+ORD000533,2024-12-05,CUST00533,Webcam HD,Electronics,75.2,4,,Minneapolis,300.8,True,0,300.8,0.0,2024.0,12.0,December,Thursday,4.0,55.0,True,Large,High
+ORD000534,,CUST00534,Water Bottle,Home & Kitchen,13.84,1,LOYALTY25,Detroit,10.38,True,25,13.84,3.46,,,,,,,False,Small,Low
+ORD000535,2024-02-16,CUST00535,,Home & Kitchen,25.2,1,,Orlando,25.2,True,0,25.2,0.0,2024.0,2.0,February,Friday,1.0,348.0,False,Small,Low
+ORD000536,2024-06-15,CUST00536,Board Game,Books & Media,27.88,1,,Columbus,27.88,True,0,27.88,0.0,2024.0,6.0,June,Saturday,2.0,228.0,False,Small,Low
+ORD000537,2024-09-16,CUST00537,Knife Set,Home & Kitchen,52.7,4,,Austin,210.8,True,0,210.8,0.0,2024.0,9.0,September,Monday,3.0,135.0,True,Large,High
+ORD000538,2024-09-21,CUST00538,Sneakers,Clothing,87.85,2,,Orlando,175.7,True,0,175.7,0.0,2024.0,9.0,September,Saturday,3.0,130.0,True,Medium,High
+ORD000539,2024-10-22,CUST00539,Lunch Box Set,Home & Kitchen,26.25,2,,Columbus,52.5,True,0,52.5,0.0,2024.0,10.0,October,Tuesday,4.0,99.0,True,Medium,Medium
+ORD000540,2024-04-25,CUST00540,Webcam HD,Electronics,73.15,2,,Columbus,146.3,True,0,146.3,0.0,2024.0,4.0,April,Thursday,2.0,279.0,True,Medium,High
+ORD000541,2024-02-11,CUST00066,Casual Dress,Clothing,59.2,1,,San Diego,59.2,True,0,59.2,0.0,2024.0,2.0,February,Sunday,1.0,353.0,True,Small,Medium
+ORD000542,2024-12-24,CUST00542,Art Supplies Set,Books & Media,33.42,2,,Houston,66.84,True,0,66.84,0.0,2024.0,12.0,December,Tuesday,4.0,36.0,True,Medium,Medium
+ORD000543,,CUST00543,Resistance Bands,Health & Beauty,19.53,5,,San Jose,97.65,True,0,97.65,0.0,,,,,,,True,Large,High
+ORD000544,2024-10-26,CUST00544,Hair Dryer,Health & Beauty,36.5,3,,Kansas City,109.5,True,0,109.5,0.0,2024.0,10.0,October,Saturday,4.0,95.0,True,Medium,High
+ORD000545,2024-10-26,CUST00545,Denim Jeans,Clothing,45.38,2,,Chicago,90.76,True,0,90.76,0.0,2024.0,10.0,October,Saturday,4.0,95.0,True,Medium,High
+ORD000546,2024-12-17,CUST00039,Monitor Light,Electronics,37.82,1,,Phoenix,37.82,True,0,37.82,0.0,2024.0,12.0,December,Tuesday,4.0,43.0,False,Small,Medium
+ORD000547,2024-02-07,CUST00025,Water Bottle,Home & Kitchen,16.06,1,SUMMER10,San Antonio,14.45,True,10,16.06,1.61,2024.0,2.0,February,Wednesday,1.0,357.0,False,Small,Low
+ORD000548,2024-09-05,CUST00033,Fiction Bestseller,Books & Media,17.11,1,,Tampa,17.11,True,0,17.11,0.0,2024.0,9.0,September,Thursday,3.0,146.0,False,Small,Low
+ORD000549,,CUST00549,Face Moisturizer,Health & Beauty,21.05,1,SUMMER10,Boston,18.95,True,10,21.05,2.1,,,,,,,False,Small,Low
+ORD000550,2024-07-27,CUST00550,Cutting Board,Home & Kitchen,25.07,2,SUMMER10,Raleigh,45.13,True,10,50.14,5.01,2024.0,7.0,July,Saturday,3.0,186.0,False,Medium,Medium
