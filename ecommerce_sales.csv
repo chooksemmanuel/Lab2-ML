@@ -1,0 +1,551 @@
+order_id,order_date,customer_id,product,category,price,quantity,coupon_code,shipping_city
+ORD000001,2024-12-08,CUST00001,Winter Jacket,Clothing,94.45,2,,Indianapolis
+ORD000002,2025-01-09,CUST00002,Knife Set,Home & Kitchen,55.97,3,,Philadelphia
+ORD000003,2024-11-20,CUST00003,Mechanical Keyboard,Electronics,90.64,5,,Las Vegas
+ORD000004,2024-02-25,CUST00004,Wireless Mouse,Electronics,28.66,2,,Seattle
+ORD000005,2024-09-08,CUST00005,Face Moisturizer,Health & Beauty,23.84,3,,San Diego
+ORD000006,2024-09-27,CUST00006,Fiction Bestseller,Books & Media,16.19,1,,Dallas
+ORD000007,2024-03-12,CUST00007,Cutting Board,Home & Kitchen,23.43,1,,miami
+ORD000008,2024-12-09,CUST00008,Running Shoes,Clothing,83.84,1,,Raleigh
+ORD000009,2024-04-03,CUST00009,Food Container Set,Home & Kitchen,32.71,0,,Minneapolis
+ORD000010,2024-02-25,CUST00010,Data Science Handbook,Books & Media,43.81,2,FREESHIP,Atlanta
+ORD000011,2025-01-15,CUST00011,Baseball Cap,Clothing,19.43,1,SAVE15,austin
+ORD000012,2024-07-03,CUST00012,Water Bottle,Home & Kitchen,15.5,1,WINTER20,Detroit
+ORD000013,2024-02-12,CUST00013,Wireless Earbuds,Electronics,78.43,1,,San Diego
+ORD000014,2024-10-23,CUST00014,,Health & Beauty,27.33,4,,Philadelphia
+ORD000015,2024-09-04,CUST00015,Hair Dryer,Health & Beauty,37.23,1,,Detroit
+ORD000016,2024-10-02,CUST00016,Blender,Home & Kitchen,46.86,2,SAVE15,Indianapolis
+ORD000017,2024-12-23,CUST00017,Water Bottle,Home & Kitchen,14.68,2,FLASH30,San Francisco
+ORD000018,2024-07-12,CUST00018,Lunch Box Set,Home & Kitchen,23.92,1,,san jose
+ORD000019,2024-03-24,CUST00019,Monitor Light,Electronics,32.58,1,FLASH30,San Antonio
+ORD000020,2024-02-07,CUST00020,Water Bottle,Home & Kitchen,-13.98,1,,Las Vegas
+ORD000021,2024-03-21,CUST00021,Cotton T-Shirt,Clothing,21.58,1,SAVE15,Seattle
+ORD000022,2024-04-15,CUST00022,USB-C Cable,Electronics,13.6,1,,Salt Lake City
+ORD000023,2024-04-27,CUST00023,Journal Notebook,Books & Media,12.48,2,SAVE10,Orlando
+ORD000024,2024-10-16,CUST00024,Smartphone Case,Electronics,26.87,1,,Dallas
+ORD000025,2024-04-22,CUST00025,Python Programming Book,Books & Media,45.17,3,,Raleigh
+ORD000026,2024-06-17,CUST00026,Journal Notebook,Books & Media,,1,VIP40,Orlando
+ORD000027,2024-08-23,CUST00027,Electric Toothbrush,Health & Beauty,49.64,1,HOLIDAY15,Salt Lake City
+ORD000028,2024-05-15,CUST00028,Kitchen Scale,Home & Kitchen,18.58,1,,Minneapolis
+ORD000029,2024-12-16,CUST00029,Wireless Mouse,Electronics,28.3,3,,Miami
+ORD000030,2024-08-29,CUST00030,Sunscreen SPF50,Health & Beauty,15.98,2,,Raleigh
+ORD000031,2024-08-28,CUST00031,Winter Jacket,Clothing,95.42,1,,Phoenix
+ORD000032,2024-08-18,CUST00032,Vitamin Supplements,Health & Beauty,26.77,2,,New York
+ORD000033,2024-05-07,CUST00033,Running Shoes,Clothing,89.73,1,,Salt Lake City
+ORD000034,2024-01-29,CUST00034,Fiction Bestseller,Books & Media,18.24,1,FLASH30,San Antonio
+ORD000035,2024-10-18,CUST00035,Winter Jacket,Clothing,102.99,2,,Nashville
+ORD000036,2024-09-10,CUST00036,Sneakers,Clothing,81.68,4,,Nashville
+ORD000037,2024-04-26,CUST00037,Blender,Home & Kitchen,47.8,1,,Salt Lake City
+ORD000038,2024-08-18,CUST00038,Wireless Mouse,Electronics,32.75,2,,Charlotte
+ORD000039,2024-11-14,,Blender,Home & Kitchen,43.96,1,,Detroit
+ORD000040,2024-11-16,CUST00040,Leather Belt,Clothing,31.56,4,LOYALTY25,Boston
+ORD000041,2025-01-04,CUST00041,Electric Toothbrush,Health & Beauty,49.72,2,,Raleigh
+ORD000042,2025-01-03,CUST00042,,Home & Kitchen,52.53,2,,Minneapolis
+ORD000043,2024-02-12,CUST00043,Knife Set,Home & Kitchen,50.62,1,HOLIDAY15,Miami
+ORD000044,2025-01-01,CUST00044,Electric Kettle,Home & Kitchen,38.13,1,SUMMER10,Nashville
+ORD000045,2024-08-22,CUST00045,Vitamin Supplements,Health & Beauty,25.54,2,,San Antonio
+ORD000046,2024-09-12,CUST00046,Water Bottle,Home & Kitchen,15.61,2,,Orlando
+ORD000047,2024-04-01,CUST00047,Blender,Home & Kitchen,41.94,2,,Kansas City
+ORD000048,2024-02-26,,Journal Notebook,Books & Media,13.26,1,FREESHIP,Kansas City
+ORD000049,2024-10-07,CUST00049,Sneakers,Clothing,87.94,1,,Chicago
+ORD000050,2024-08-08,CUST00050,Vitamin Supplements,Health & Beauty,24.76,1,,Nashville
+ORD000051,2024-09-27,CUST00051,Bluetooth Speaker,Electronics,47.66,1,LOYALTY25,Atlanta
+ORD000052,2024-03-14,CUST00052,USB-C Cable,Electronics,12.99,2,,Dallas
+ORD000053,2024-03-25,CUST00053,Running Shoes,Clothing,87.11,2,SAVE10,San Jose
+ORD000054,2024-10-20,CUST00054,Winter Jacket,Clothing,109.6,1,,Columbus
+ORD000055,2024-04-02,CUST00055,USB-C Cable,Electronics,13.0,2,,columbus
+ORD000056,2024-05-30,CUST00056,Data Science Handbook,Books & Media,42.8,3,,Denver
+ORD000057,2024-06-11,CUST00057,Wireless Mouse,Electronics,32.86,2,,Houston
+ORD000058,2024-10-13,CUST00058,Air Fryer,Home & Kitchen,,2,,Orlando
+ORD000059,2024-06-11,CUST00059,Blender,Home & Kitchen,45.45,1,,Tampa
+ORD000060,2024-07-17,CUST00060,Cotton T-Shirt,Clothing,21.9,2,WINTER20,Columbus
+ORD000061,2024-11-21,CUST00061,Kitchen Scale,Home & Kitchen,20.47,2,,Orlando
+ORD000062,2024-03-23,CUST00005,Running Shoes,Clothing,84.15,1,,Seattle
+ORD000063,2024-07-07,CUST00063,Data Science Handbook,Books & Media,37.12,4,,Raleigh
+ORD000064,2024-07-22,CUST00064,Casual Dress,Clothing,58.56,2,,Orlando
+ORD000065,2025-01-08,CUST00065,Data Science Handbook,Books & Media,37.11,4,,Atlanta
+ORD000066,2024-11-11,CUST00066,Cutting Board,Home & Kitchen,23.7,3,,Dallas
+ORD000067,2024-12-11,CUST00067,Self-Help Book,Books & Media,14.06,1,,Miami
+ORD000068,2024-04-30,CUST00013,Face Moisturizer,Health & Beauty,23.39,3,,Phoenix
+ORD000069,2024-01-29,CUST00006,Electric Kettle,Home & Kitchen,33.76,1,LOYALTY25,Boston
+ORD000070,2024-02-07,CUST00070,Shampoo Set,Health & Beauty,18.83,4,HOLIDAY15,Columbus
+ORD000071,2024-06-04,CUST00071,Massage Gun,Health & Beauty,83.38,1,,San Jose
+ORD000072,2024-05-05,CUST00072,Cutting Board,Home & Kitchen,22.25,1,,Houston
+ORD000073,2024-08-24,CUST00012,Sneakers,Clothing,80.89,2,,Austin
+ORD000074,2024-06-23,CUST00074,Massage Gun,Health & Beauty,75.39,2,SAVE15,Seattle
+ORD000075,2024-11-25,CUST00075,Vitamin Supplements,Health & Beauty,25.53,2,, New York 
+ORD000076,2024-03-28,CUST00076,Smartphone Case,Electronics,26.22,1,,Austin
+ORD000077,2024-02-10,CUST00077,Baseball Cap,Clothing,18.57,1,,Dallas
+ORD000078,2024-05-07,,Vitamin Supplements,Health & Beauty,22.53,1,SAVE20,Nashville
+ORD000079,2024-12-23,CUST00079,Wireless Mouse,Electronics,32.16,1,SAVE15,Columbus
+ORD000080,2024-11-27,CUST00080,Denim Jeans,Clothing,49.36,1,,Denver
+ORD000081,2024-10-03,CUST00012,Sneakers,Clothing,75.77,1,WINTER20,Phoenix
+ORD000082,2024-10-31,CUST00082,Electric Toothbrush,Health & Beauty,53.63,2,SAVE15,Atlanta
+ORD000083,2024-06-10,CUST00003,First Aid Kit,Health & Beauty,30.03,1,,Salt Lake City
+ORD000084,2024-09-02,CUST00011,Monitor Light,Electronics,36.01,1,,Miami
+ORD000085,2024-12-04,CUST00085,Webcam HD,Electronics,64.31,2,LOYALTY25,Columbus
+ORD000086,2025-01-07,CUST00086,Electric Kettle,Home & Kitchen,36.45,1,,Tampa
+ORD000087,2024-08-19,CUST00087,Webcam HD,Electronics,67.31,4,,Nashville
+ORD000088,2024-10-11,CUST00011,Resistance Bands,Health & Beauty,20.38,1,LOYALTY25,Nashville
+ORD000089,2024-09-01,CUST00008,Baseball Cap,Clothing,19.44,1,,Detroit
+ORD000090,2024-03-26,CUST00090,Mechanical Keyboard,Electronics,96.72,2,SUMMER10,Columbus
+ORD000091,2024-09-02,CUST00091,Wireless Mouse,Electronics,27.31,2,SAVE15,Seattle
+ORD000092,2024-09-13,CUST00092,Knife Set,Home & Kitchen,54.42,1,WELCOME5,San Antonio
+ORD000093,2024-08-17,CUST00093,Hair Dryer,Health & Beauty,-36.49,3,,Las Vegas
+ORD000094,2024-12-21,CUST00094,Electric Toothbrush,Health & Beauty,45.67,2,,Portland
+ORD000095,2024-07-10,CUST00004,Electric Toothbrush,Health & Beauty,46.32,1,,Tampa
+ORD000096,2024-09-06,CUST00007,Bluetooth Speaker,Electronics,53.85,1,,Denver
+ORD000097,2024-07-03,CUST00012,Art Supplies Set,Books & Media,36.69,3,,Philadelphia
+ORD000098,2024-04-17,CUST00098,Denim Jeans,Clothing,45.79,2,,Minneapolis
+ORD000099,2024-12-08,CUST00099,Smartphone Case,Electronics,25.85,1,,Raleigh
+ORD000100,2024-07-21,CUST00100,Vitamin Supplements,Health & Beauty,25.52,2,,Seattle
+ORD000101,2024-04-20,CUST00101,Puzzle 1000pc,Books & Media,18.46,2,,San Antonio
+ORD000102,2024-08-30,CUST00102,Sports Shorts,Clothing,31.25,2,WELCOME5,Columbus
+ORD000103,2024-05-16,CUST00103,Webcam HD,Electronics,70.75,1,,Las Vegas
+ORD000104,2024-11-05,CUST00011,Mechanical Keyboard,Electronics,89.38,2,,Las Vegas
+ORD000105,2024-04-09,CUST00008,Leather Belt,Clothing,37.75,3,FREESHIP,Las Vegas
+ORD000106,2024-11-30,CUST00106,Electric Toothbrush,Health & Beauty,53.41,2,,New York
+ORD000107,2024-12-02,CUST00107,Baseball Cap,Clothing,17.07,3,,Miami
+ORD000108,2024-07-10,CUST00108,Lunch Box Set,Home & Kitchen,25.06,1,SAVE15,Dallas
+ORD000109,2024-07-01,CUST00109,Winter Jacket,Clothing,105.25,1,,Atlanta
+ORD000110,2024-06-08,CUST00110,Self-Help Book,Books & Media,15.1,3,,Indianapolis
+ORD000111,2024-07-31,CUST00111,Shampoo Set,Health & Beauty,20.23,2,,Phoenix
+ORD000112,2024-09-28,CUST00002,Lunch Box Set,Home & Kitchen,26.51,2,SUMMER10,Phoenix
+ORD000113,2024-10-14,CUST00113,Shampoo Set,Health & Beauty,18.89,1,,Houston
+ORD000114,2024-11-07,CUST00114,Power Bank,Electronics,44.81,2,,Nashville
+ORD000115,2024-04-02,CUST00115,Cutting Board,Home & Kitchen,23.0,2,,Columbus
+ORD000116,2024-04-13,CUST00116,Electric Toothbrush,Health & Beauty,50.45,2,,Orlando
+ORD000117,2024-06-16,CUST00117,Knife Set,Home & Kitchen,52.98,1,,Salt Lake City
+ORD000118,2024-03-30,CUST00010,Webcam HD,Electronics,75.93,2,,San Antonio
+ORD000119,2024-12-23,CUST00119,Kitchen Scale,Home & Kitchen,18.2,1,,Houston
+ORD000120,2024-12-14,CUST00010,Wool Sweater,Clothing,56.59,3,WINTER20,San Diego
+ORD000121,2024-08-06,CUST00121,Water Bottle,Home & Kitchen,16.12,1,,Houston
+ORD000122,2024-06-03,CUST00004,Sneakers,Clothing,83.69,2,,New York
+ORD000123,2024-10-05,CUST00123,Data Science Handbook,Books & Media,-37.47,1,,San Diego
+ORD000124,2024-07-18,CUST00124,Smartphone Case,Electronics,24.82,1,,San Francisco
+ORD000125,2024-03-24,CUST00125,Audiobook Subscription,Books & Media,9.74,2,,Nashville
+ORD000126,2025-01-10,CUST00126,Yoga Mat,Health & Beauty,27.36,2,,Detroit
+ORD000127,2024-08-31,CUST00127,Fiction Bestseller,Books & Media,17.04,1,HOLIDAY15,Orlando
+ORD000128,2024-02-17,CUST00128,Smartphone Case,Electronics,27.42,1,SAVE20,Nashville
+ORD000129,2024-07-27,CUST00129,Resistance Bands,Health & Beauty,20.6,1,SUMMER10,denver
+ORD000130,2024-10-14,CUST00130,,Home & Kitchen,19.83,1,LOYALTY25,Nashville
+ORD000131,2024-02-02,CUST00131,Bluetooth Speaker,Electronics,52.39,1,SAVE25,Nashville
+ORD000132,2024-12-25,CUST00132,Water Bottle,Home & Kitchen,16.12,5,,Boston
+ORD000133,2024-07-10,CUST00133,Puzzle 1000pc,Books & Media,19.27,1,VIP40,Philadelphia
+ORD000134,2024-08-16,CUST00134,Cutting Board,Home & Kitchen,21.81,1,,San Francisco
+ORD000135,2024-02-22,CUST00025,Massage Gun,Health & Beauty,75.46,0,,San Jose
+ORD000136,2024-11-20,CUST00136,Cookbook,Books & Media,30.3,2,,Las Vegas
+ORD000137,2024-06-27,CUST00137,Sports Shorts,Clothing,29.47,2,SAVE20,New York
+ORD000138,2024-09-27,CUST00138,Wool Sweater,Clothing,57.89,1,,Raleigh
+ORD000139,2024-12-09,CUST00139,,Health & Beauty,26.68,1,,Los Angeles
+ORD000140,2024-11-27,CUST00140,Hair Dryer,Health & Beauty,-41.26,1,, Boston 
+ORD000141,2024-04-16,CUST00004,Resistance Bands,Health & Beauty,18.95,2,FLASH30,Dallas
+ORD000142,2024-02-26,CUST00142,Smartphone Case,Electronics,-24.52,1,,Tampa
+ORD000143,2024-10-12,CUST00143,Kitchen Scale,Home & Kitchen,21.59,2,,Dallas
+ORD000144,2024-05-01,CUST00144,Data Science Handbook,Books & Media,38.38,2,,Columbus
+ORD000145,2024-07-11,CUST00014,Blender,Home & Kitchen,44.52,2,,Denver
+ORD000146,2024-04-20,CUST00146,Data Science Handbook,Books & Media,42.17,1,SAVE15,Chicago
+ORD000147,,CUST00147,Denim Jeans,Clothing,46.32,1,,Las Vegas
+ORD000148,2024-08-14,CUST00148,Monitor Light,Electronics,37.83,5,,Philadelphia
+ORD000149,2024-02-24,CUST00149,Knife Set,Home & Kitchen,56.02,1,WELCOME5,New York
+ORD000150,2024-11-15,CUST00011,Face Moisturizer,Health & Beauty,22.89,1,,Austin
+ORD000151,2024-03-14,CUST00151,Electric Kettle,Home & Kitchen,38.47,1,,New York
+ORD000152,2024-08-12,CUST00152,Water Bottle,Home & Kitchen,14.22,2,,Salt Lake City
+ORD000153,2024-02-03,CUST00153,Leather Belt,Clothing,35.65,3,SAVE25,Orlando
+ORD000154,2024-08-23,CUST00004,Winter Jacket,Clothing,100.2,2,,Detroit
+ORD000155,2024-06-15,CUST00155,Smartphone Case,Electronics,26.65,2,,Austin
+ORD000156,2025-01-13,CUST00028,Denim Jeans,Clothing,51.76,1,,San Diego
+ORD000157,2024-12-17,CUST00157,Power Bank,Electronics,48.44,1,,New York
+ORD000158,2024-06-30,CUST00004,Baseball Cap,Clothing,18.09,2,,Minneapolis
+ORD000159,2024-11-13,CUST00005,Denim Jeans,Clothing,47.38,1,,Phoenix
+ORD000160,2024-04-13,CUST00160,Self-Help Book,Books & Media,13.91,1,,Los Angeles
+ORD000161,2024-09-23,CUST00161,Board Game,Books & Media,27.99,2,,San Diego
+ORD000162,2024-03-13,CUST00162,Leather Belt,Clothing,37.25,1,,Los Angeles
+ORD000163,2024-02-01,CUST00163,Denim Jeans,Clothing,49.38,5,,San Diego
+ORD000164,2024-04-30,CUST00164,Electric Toothbrush,Health & Beauty,50.31,2,LOYALTY25,San Jose
+ORD000165,2024-02-15,CUST00165,Air Fryer,Home & Kitchen,85.48,2,,Nashville
+ORD000166,2024-03-03,CUST00166,Sports Shorts,Clothing,29.72,1,,Columbus
+ORD000167,2024-05-06,CUST00167,Knife Set,Home & Kitchen,52.44,3,,Detroit
+ORD000168,2024-01-24,CUST00011,Board Game,Books & Media,27.0,4,LOYALTY25,San Francisco
+ORD000169,2024-12-13,CUST00026,Winter Jacket,Clothing,98.57,1,SAVE25, Atlanta 
+ORD000170,2025-01-05,CUST00005,Cutting Board,Home & Kitchen,21.1,3,FLASH30,Indianapolis
+ORD000171,2024-11-23,CUST00171,Journal Notebook,Books & Media,13.57,2,VIP40,Minneapolis
+ORD000172,2024-06-25,CUST00172,Water Bottle,Home & Kitchen,15.42,1,,Raleigh
+ORD000173,2024-08-03,CUST00004,Knife Set,Home & Kitchen,53.73,1,,Chicago
+ORD000174,2024-12-30,CUST00031,Wireless Earbuds,Electronics,81.39,1,SAVE10,Salt Lake City
+ORD000175,2024-04-03,CUST00020,Monitor Light,Electronics,37.94,5,FLASH30,Denver
+ORD000176,2024-05-20,CUST00028,Mechanical Keyboard,Electronics,92.01,1,,Orlando
+ORD000177,2024-05-27,CUST00009,Denim Jeans,Clothing,52.7,1,,Dallas
+ORD000178,2024-04-10,,Denim Jeans,Clothing,-53.93,2,LOYALTY25,Portland
+ORD000179,2024-02-03,CUST00179,Cookbook,Books & Media,28.92,1,,Dallas
+ORD000180,2024-08-08,CUST00030,Wool Sweater,Clothing,53.09,2,SAVE25,San Jose
+ORD000181,2024-10-21,CUST00181,Air Fryer,Home & Kitchen,81.11,1,FLASH30,tampa
+ORD000182,2024-10-13,CUST00182,Board Game,Books & Media,32.76,5,WELCOME5,Chicago
+ORD000183,2024-09-30,CUST00026,Power Bank,Electronics,45.6,1,,San Diego
+ORD000184,2024-04-28,CUST00007,Blender,Home & Kitchen,42.9,1,,Las Vegas
+ORD000185,2025-01-10,CUST00185,Bluetooth Speaker,Electronics,53.35,1,SAVE25,Seattle
+ORD000186,2024-10-23,CUST00030,USB-C Cable,Electronics,12.01,1,,San Diego
+ORD000187,2024-01-27,CUST00187,Knife Set,Home & Kitchen,58.39,1,,Salt Lake City
+ORD000188,2024-12-30,CUST00188,Winter Jacket,Clothing,108.16,1,,Phoenix
+ORD000189,2024-03-26,CUST00189,Face Moisturizer,Health & Beauty,23.59,3,,Denver
+ORD000190,2024-06-27,CUST00190,Laptop Stand,Electronics,36.46,5,,Nashville
+ORD000191,2024-05-07,CUST00191,Journal Notebook,Books & Media,14.12,5,SAVE25,Detroit
+ORD000192,2024-04-21,,Puzzle 1000pc,Books & Media,19.23,1,SAVE25,Minneapolis
+ORD000193,2024-06-29,CUST00010,Resistance Bands,Health & Beauty,21.09,3,,Chicago
+ORD000194,2024-12-08,CUST00194,Sneakers,Clothing,83.3,2,,Minneapolis
+ORD000195,2025-01-09,CUST00195,Audiobook Subscription,Books & Media,9.06,2,,Minneapolis
+ORD000196,2024-03-01,,Baseball Cap,Clothing,16.23,1,,Seattle
+ORD000197,2024-07-27,CUST00197,Data Science Handbook,Books & Media,42.62,2,,Nashville
+ORD000198,2024-04-12,CUST00198,Blender,Home & Kitchen,46.42,3,WINTER20,Minneapolis
+ORD000199,2024-04-22,CUST00199,Massage Gun,Health & Beauty,76.23,1,SAVE10,Denver
+ORD000200,2024-04-27,CUST00014,Water Bottle,Home & Kitchen,16.42,1,,Denver
+ORD000201,2024-02-07,CUST00030,Winter Jacket,Clothing,106.73,2,LOYALTY25,Orlando
+ORD000202,2024-10-09,CUST00202,Hair Dryer,Health & Beauty,40.57,1,VIP40,Indianapolis
+ORD000203,2024-09-01,CUST00011,Kitchen Scale,Home & Kitchen,18.5,1,,Boston
+ORD000204,2024-10-26,CUST00204,Wool Sweater,Clothing,55.21,3,LOYALTY25,Minneapolis
+ORD000205,2024-03-10,CUST00205,Laptop Stand,Electronics,42.93,3,,Dallas
+ORD000206,2024-02-04,CUST00206,Winter Jacket,Clothing,90.98,1,FLASH30,New York
+ORD000207,2024-06-17,CUST00207,Journal Notebook,Books & Media,12.39,1,,San Antonio
+ORD000208,2024-02-18,CUST00208,Sunscreen SPF50,Health & Beauty,13.9,3,,New York
+ORD000209,2024-07-22,CUST00209,Sunscreen SPF50,Health & Beauty,15.4,1,FLASH30,Atlanta
+ORD000210,2025-01-02,CUST00002,Python Programming Book,Books & Media,41.96,2,,Columbus
+ORD000211,2024-09-14,CUST00211,Electric Kettle,Home & Kitchen,37.1,1,,San Jose
+ORD000212,2024-10-08,CUST00212,Audiobook Subscription,Books & Media,9.2,2,,Kansas City
+ORD000213,2024-06-30,CUST00213,Wool Sweater,Clothing,51.56,2,SAVE10,Salt Lake City
+ORD000214,2024-08-17,CUST00214,Power Bank,Electronics,46.86,2,LOYALTY25,Charlotte
+ORD000215,2024-10-27,CUST00007,Fiction Bestseller,Books & Media,17.81,2,,San Francisco
+ORD000216,2024-07-03,CUST00216,Shampoo Set,Health & Beauty,18.85,1,FREESHIP,Detroit
+ORD000217,,CUST00013,Running Shoes,Clothing,98.76,3,,Phoenix
+ORD000218,,CUST00011,Resistance Bands,Health & Beauty,19.95,2,WINTER20,Boston
+ORD000219,2024-06-28,CUST00219,Face Moisturizer,Health & Beauty,20.77,1,,San Diego
+ORD000220,2024-06-12,CUST00220,First Aid Kit,Health & Beauty,30.13,1,,Phoenix
+ORD000221,2024-03-23,CUST00002,Massage Gun,Health & Beauty,74.69,1,,Los Angeles
+ORD000222,2024-02-09,,Board Game,Books & Media,29.27,2,,Phoenix
+ORD000223,2024-08-17,CUST00223,Monitor Light,Electronics,36.52,1,SAVE15,Atlanta
+ORD000224,2024-09-26,CUST00224,Journal Notebook,Books & Media,12.3,1,SAVE15,Kansas City
+ORD000225,2024-09-05,CUST00225,Wool Sweater,Clothing,54.6,1,SAVE10,Columbus
+ORD000226,2024-12-20,CUST00226,Sports Shorts,Clothing,32.36,4,LOYALTY25,Chicago
+ORD000227,2024-08-18,CUST00227,Blender,Home & Kitchen,42.61,2,,Columbus
+ORD000228,2024-01-30,,Knife Set,Home & Kitchen,59.61,1,,Los Angeles
+ORD000229,2024-12-23,CUST00229,Massage Gun,Health & Beauty,83.0,2,,Raleigh
+ORD000230,2024-12-10,CUST00230,Hair Dryer,Health & Beauty,42.8,3,HOLIDAY15,Austin
+ORD000231,2024-11-04,CUST00231,Board Game,Books & Media,28.89,5,,new york
+ORD000232,2024-10-02,CUST00232,Journal Notebook,Books & Media,12.63,1,HOLIDAY15,Austin
+ORD000233,2024-07-08,CUST00233,Leather Belt,Clothing,35.14,2,SAVE20,Atlanta
+ORD000234,,CUST00234,Lunch Box Set,Home & Kitchen,23.03,1,,Kansas City
+ORD000235,2024-02-09,CUST00235,Audiobook Subscription,Books & Media,9.96,2,,Philadelphia
+ORD000236,2024-08-17,CUST00236,Water Bottle,Home & Kitchen,14.68,1,,Phoenix
+ORD000237,2024-10-25,CUST00237,Kitchen Scale,Home & Kitchen,20.49,1,,Orlando
+ORD000238,2024-10-29,CUST00238,Sunscreen SPF50,Health & Beauty,15.51,3,,Indianapolis
+ORD000239,2024-04-07,CUST00239,Sneakers,Clothing,85.42,2,,Las Vegas
+ORD000240,2024-05-16,,Cotton T-Shirt,Clothing,21.7,1,,Orlando
+ORD000241,2024-12-05,CUST00241,Casual Dress,Clothing,60.55,2,,San Antonio
+ORD000242,2024-10-26,CUST00011,Shampoo Set,Health & Beauty,17.11,1,,Los Angeles
+ORD000243,2024-07-17,CUST00046,Leather Belt,Clothing,33.03,1,SUMMER10,Philadelphia
+ORD000244,2024-11-27,CUST00244,Vitamin Supplements,Health & Beauty,23.06,1,FREESHIP,Minneapolis
+ORD000245,2024-06-08,CUST00034,Leather Belt,Clothing,37.11,1,FREESHIP,San Antonio
+ORD000246,2024-12-03,CUST00246,Data Science Handbook,Books & Media,37.64,3,,Raleigh
+ORD000247,2024-02-12,,Yoga Mat,Health & Beauty,30.44,1,VIP40,Miami
+ORD000248,2024-11-10,CUST00005,Leather Belt,Clothing,32.23,2,,Chicago
+ORD000249,2024-10-21,,Water Bottle,Home & Kitchen,15.52,3,,Raleigh
+ORD000250,2024-10-22,CUST00250,Winter Jacket,Clothing,104.96,3,,Boston
+ORD000251,2024-11-01,CUST00251,Hair Dryer,Health & Beauty,41.15,1,,Dallas
+ORD000252,2024-04-24,CUST00252,Journal Notebook,Books & Media,13.29,1,,Detroit
+ORD000253,2024-06-05,CUST00253,Lunch Box Set,Home & Kitchen,26.88,1,,San Jose
+ORD000254,2024-12-01,CUST00005,Monitor Light,Electronics,35.91,3,,Nashville
+ORD000255,2024-05-09,CUST00255,Shampoo Set,Health & Beauty,-17.6,2,FLASH30,Portland
+ORD000256,2024-10-31,CUST00256,Knife Set,Home & Kitchen,59.82,1,,San Diego
+ORD000257,2024-02-08,CUST00042,Denim Jeans,Clothing,52.03,2,,Kansas City
+ORD000258,2024-05-23,CUST00258,Food Container Set,Home & Kitchen,29.43,3,,Salt Lake City
+ORD000259,2024-04-20,CUST00039,Bluetooth Speaker,Electronics,49.14,1,FREESHIP,Atlanta
+ORD000260,2024-10-04,,Coffee Maker,Home & Kitchen,55.99,4,,Denver
+ORD000261,2024-09-13,CUST00261,Kitchen Scale,Home & Kitchen,21.31,2,,Kansas City
+ORD000262,2024-07-27,CUST00262,Wireless Earbuds,Electronics,75.23,3,,Boston
+ORD000263,2024-03-03,CUST00263,Electric Kettle,Home & Kitchen,35.26,1,,Orlando
+ORD000264,2024-07-29,CUST00264,Yoga Mat,Health & Beauty,29.54,1,,San Francisco
+ORD000265,2024-03-16,CUST00265,Cookbook,Books & Media,31.12,1,,Phoenix
+ORD000266,2024-04-29,CUST00266,Hair Dryer,Health & Beauty,37.42,2,,San Jose
+ORD000267,2024-04-07,,Journal Notebook,Books & Media,13.77,2,,Los Angeles
+ORD000268,2024-05-08,CUST00268,Vitamin Supplements,Health & Beauty,26.11,4,,Tampa
+ORD000269,2024-12-17,CUST00269,Shampoo Set,Health & Beauty,17.83,2,, Charlotte 
+ORD000270,2024-07-14,CUST00270,Audiobook Subscription,Books & Media,9.39,1,,San Francisco
+ORD000271,2024-04-24,CUST00271,Audiobook Subscription,Books & Media,9.0,1,,Las Vegas
+ORD000272,2025-01-05,CUST00272,Audiobook Subscription,Books & Media,9.96,1,,Nashville
+ORD000273,2024-12-27,CUST00273,Running Shoes,Clothing,98.19,2,WELCOME5,San Diego
+ORD000274,2024-11-04,CUST00048,Knife Set,Home & Kitchen,57.6,1,WELCOME5,San Antonio
+ORD000275,2024-09-24,CUST00275,Vitamin Supplements,Health & Beauty,26.73,1,,Indianapolis
+ORD000276,2024-11-06,CUST00034,Board Game,Books & Media,,1,,Columbus
+ORD000277,2024-11-08,CUST00024,Shampoo Set,Health & Beauty,17.8,1,WINTER20,Austin
+ORD000278,2024-03-23,CUST00278,Blender,Home & Kitchen,48.02,3,,Columbus
+ORD000279,2024-12-03,CUST00279,Baseball Cap,Clothing,17.27,2,,Denver
+ORD000280,2024-07-18,CUST00280,Sports Shorts,Clothing,27.11,1,,Minneapolis
+ORD000281,2024-08-31,CUST00281,Audiobook Subscription,Books & Media,9.56,2,SAVE20,Tampa
+ORD000282,2024-06-26,CUST00282,Casual Dress,Clothing,61.73,1,,Columbus
+ORD000283,2024-05-23,CUST00283,Bluetooth Speaker,Electronics,46.66,1,HOLIDAY15,Las Vegas
+ORD000284,2024-08-02,CUST00284,Water Bottle,Home & Kitchen,14.82,1,,Philadelphia
+ORD000285,2024-08-30,CUST00045,Resistance Bands,Health & Beauty,20.35,1,,Indianapolis
+ORD000286,2024-07-21,,Water Bottle,Home & Kitchen,,2,,Phoenix
+ORD000287,2024-06-13,CUST00287,Monitor Light,Electronics,34.11,1,,Denver
+ORD000288,2024-11-24,CUST00288,Wool Sweater,Clothing,56.62,2,SAVE25,Columbus
+ORD000289,2024-04-02,,USB-C Cable,Electronics,-14.22,1,HOLIDAY15,Raleigh
+ORD000290,2025-01-06,CUST00290,Denim Jeans,Clothing,53.42,4,,Denver
+ORD000291,2024-05-22,CUST00291,Cookbook,Books & Media,31.42,1,,Nashville
+ORD000292,2024-10-23,CUST00292,Baseball Cap,Clothing,18.49,1,, Columbus 
+ORD000293,2024-05-19,CUST00003,Hair Dryer,Health & Beauty,41.5,1,,San Diego
+ORD000294,2025-01-09,CUST00294,USB-C Cable,Electronics,12.96,1,,Tampa
+ORD000295,2024-09-20,CUST00295,Shampoo Set,Health & Beauty,19.15,1,,Las Vegas
+ORD000296,2024-06-15,CUST00296,Electric Toothbrush,Health & Beauty,49.53,0,,Raleigh
+ORD000297,2024-08-01,CUST00044,Puzzle 1000pc,Books & Media,18.61,1,,Austin
+ORD000298,2024-03-06,CUST00042,Board Game,Books & Media,30.14,2,FLASH30,San Diego
+ORD000299,2024-02-16,CUST00299,Journal Notebook,Books & Media,13.75,1,,Portland
+ORD000300,2024-04-22,CUST00043,Electric Kettle,Home & Kitchen,35.87,1,,Boston
+ORD000301,2024-10-23,CUST00301,Sneakers,Clothing,80.53,2,,Indianapolis
+ORD000302,,CUST00302,Puzzle 1000pc,Books & Media,21.69,0,, Miami 
+ORD000303,2024-05-08,CUST00021,Laptop Stand,Electronics,43.34,2,,Detroit
+ORD000304,2024-03-03,CUST00304,Face Moisturizer,Health & Beauty,24.07,2,,Philadelphia
+ORD000305,2024-07-29,CUST00004,Sports Shorts,Clothing,32.27,1,, Houston 
+ORD000306,2024-02-06,CUST00306,Resistance Bands,Health & Beauty,19.3,2,FREESHIP,Raleigh
+ORD000307,2024-07-06,CUST00037,Monitor Light,Electronics,34.28,1,,Nashville
+ORD000308,2024-10-10,CUST00005,Running Shoes,Clothing,86.81,4,FREESHIP,Boston
+ORD000309,2024-08-29,CUST00309,Python Programming Book,Books & Media,48.81,1,,Phoenix
+ORD000310,,CUST00310,Laptop Stand,Electronics,39.59,1,SUMMER10,San Antonio
+ORD000311,2024-11-09,CUST00311,Vitamin Supplements,Health & Beauty,23.77,1,LOYALTY25,Minneapolis
+ORD000312,2024-03-11,CUST00056,Cookbook,Books & Media,32.87,2,,Indianapolis
+ORD000313,2024-05-21,CUST00313,Sports Shorts,Clothing,29.93,2,FREESHIP,Seattle
+ORD000314,2024-01-31,CUST00314,Winter Jacket,Clothing,93.02,3,,Chicago
+ORD000315,2024-06-23,CUST00315,Baseball Cap,Clothing,18.14,1,SUMMER10,Orlando
+ORD000316,2024-03-30,CUST00316,Resistance Bands,Health & Beauty,19.26,2,,Houston
+ORD000317,2024-12-07,CUST00317,Sneakers,Clothing,84.46,1,,Minneapolis
+ORD000318,2024-03-24,CUST00318,Hair Dryer,Health & Beauty,41.69,1,,Atlanta
+ORD000319,2024-12-24,CUST00319,Blender,Home & Kitchen,43.02,4,,Minneapolis
+ORD000320,2024-06-24,CUST00320,First Aid Kit,Health & Beauty,30.21,2,,Los Angeles
+ORD000321,2024-10-27,CUST00321,Bluetooth Speaker,Electronics,47.9,1,,Kansas City
+ORD000322,2024-03-02,,USB-C Cable,Electronics,13.71,4,,Phoenix
+ORD000323,2024-06-29,CUST00323,Blender,Home & Kitchen,42.23,2,,Chicago
+ORD000324,,CUST00324,Air Fryer,Home & Kitchen,96.63,1,,Boston
+ORD000325,2024-05-24,CUST00064,Puzzle 1000pc,Books & Media,21.22,2,,San Antonio
+ORD000326,2024-10-27,CUST00326,Coffee Maker,Home & Kitchen,56.21,1,,Phoenix
+ORD000327,2024-12-25,CUST00023,Audiobook Subscription,Books & Media,9.71,1,,Austin
+ORD000328,2024-06-04,CUST00328,Puzzle 1000pc,Books & Media,18.83,1,WINTER20,Raleigh
+ORD000329,2024-06-26,CUST00046,Electric Kettle,Home & Kitchen,35.43,2,,Atlanta
+ORD000330,,CUST00330,Art Supplies Set,Books & Media,-31.81,1,,San Antonio
+ORD000331,2025-01-01,CUST00331,Audiobook Subscription,Books & Media,10.22,1,FLASH30,Kansas City
+ORD000332,2024-10-16,CUST00332,Art Supplies Set,Books & Media,37.98,1,,Detroit
+ORD000333,2024-04-01,CUST00004,Running Shoes,Clothing,92.27,3,,Denver
+ORD000334,2024-05-16,CUST00334,Winter Jacket,Clothing,100.49,1,,Los Angeles
+ORD000335,2024-10-10,CUST00335,Sneakers,Clothing,,1,,Portland
+ORD000336,2025-01-01,CUST00336,Webcam HD,Electronics,69.53,1,,Orlando
+ORD000337,2024-08-28,CUST00337,Sneakers,Clothing,74.51,1,,Las Vegas
+ORD000338,2024-02-21,CUST00338,Leather Belt,Clothing,34.6,1,,Orlando
+ORD000339,2024-08-31,CUST00339,Sports Shorts,Clothing,31.89,2,,Las Vegas
+ORD000340,2024-06-22,CUST00340,Board Game,Books & Media,28.38,1,,Minneapolis
+ORD000341,2024-02-18,CUST00341,Baseball Cap,Clothing,17.85,1,,Minneapolis
+ORD000342,2024-09-08,CUST00342,Cookbook,Books & Media,30.72,2,,Denver
+ORD000343,2024-04-13,CUST00343,Power Bank,Electronics,48.02,1,,Austin
+ORD000344,2024-07-28,CUST00344,Smartphone Case,Electronics,23.58,0,,Nashville
+ORD000345,2024-12-29,CUST00345,Casual Dress,Clothing,63.52,2,, San Francisco 
+ORD000346,2024-06-14,CUST00007,Monitor Light,Electronics,37.23,1,,Columbus
+ORD000347,2024-04-13,CUST00347,Food Container Set,Home & Kitchen,29.3,4,,phoenix
+ORD000348,2024-03-25,CUST00054,Audiobook Subscription,Books & Media,10.85,2,,Boston
+ORD000349,2024-09-28,CUST00047,Wireless Earbuds,Electronics,81.08,2,HOLIDAY15,Charlotte
+ORD000350,2024-11-23,CUST00061,Monitor Light,Electronics,37.08,1,FLASH30,Las Vegas
+ORD000351,2024-06-12,CUST00039,Shampoo Set,Health & Beauty,17.32,1,SAVE10,Orlando
+ORD000352,2024-03-23,CUST00352,Wool Sweater,Clothing,49.65,1,WINTER20,Raleigh
+ORD000353,2024-07-09,CUST00353,Electric Kettle,Home & Kitchen,38.03,1,,Boston
+ORD000354,2024-03-15,CUST00060,Board Game,Books & Media,28.8,2,,Las Vegas
+ORD000355,2024-07-29,CUST00355,Vitamin Supplements,Health & Beauty,22.98,2,,Columbus
+ORD000356,2024-12-26,CUST00356,Face Moisturizer,Health & Beauty,23.08,2,,austin
+ORD000357,2024-06-09,CUST00005,Power Bank,Electronics,41.32,4,,Kansas City
+ORD000358,2024-12-12,CUST00358,Blender,Home & Kitchen,47.79,1,,San Francisco
+ORD000359,2024-02-22,CUST00008,Art Supplies Set,Books & Media,33.82,1,,Dallas
+ORD000360,2024-08-23,CUST00014,Self-Help Book,Books & Media,13.8,0,, Dallas 
+ORD000361,2024-07-02,CUST00361,Vitamin Supplements,Health & Beauty,25.07,4,,Boston
+ORD000362,2024-03-18,CUST00362,Sports Shorts,Clothing,31.08,1,,Tampa
+ORD000363,2024-02-05,CUST00363,Water Bottle,Home & Kitchen,15.58,3,,Seattle
+ORD000364,2024-08-02,CUST00070,Baseball Cap,Clothing,18.11,3,,New York
+ORD000365,2024-12-28,CUST00365,Resistance Bands,Health & Beauty,,0,LOYALTY25,Phoenix
+ORD000366,2024-06-21,CUST00366,Mechanical Keyboard,Electronics,91.99,3,SAVE15,Houston
+ORD000367,2024-06-30,CUST00070,Lunch Box Set,Home & Kitchen,26.67,2,,Detroit
+ORD000368,2024-11-08,CUST00013,Sunscreen SPF50,Health & Beauty,-15.82,1,,New York
+ORD000369,2024-03-20,CUST00035,Hair Dryer,Health & Beauty,39.29,4,,Los Angeles
+ORD000370,2024-04-23,CUST00068,Power Bank,Electronics,43.75,2,,San Diego
+ORD000371,2024-09-26,CUST00006,Webcam HD,Electronics,66.98,1,,Salt Lake City
+ORD000372,2024-02-21,CUST00372,Audiobook Subscription,Books & Media,10.15,1,,Indianapolis
+ORD000373,2024-09-13,CUST00373,Wireless Mouse,Electronics,27.86,4,,Denver
+ORD000374,2024-06-07,CUST00060,Art Supplies Set,Books & Media,32.69,1,,Minneapolis
+ORD000375,2024-10-09,CUST00375,Electric Kettle,Home & Kitchen,34.8,1,VIP40,Raleigh
+ORD000376,2024-08-16,CUST00376,Mechanical Keyboard,Electronics,,2,,Denver
+ORD000377,2024-05-06,CUST00038,Blender,Home & Kitchen,41.54,2,HOLIDAY15,Columbus
+ORD000378,2024-12-01,CUST00378,Smartphone Case,Electronics,24.41,2,,San Jose
+ORD000379,2024-02-13,CUST00379,Cotton T-Shirt,Clothing,18.43,1,,Seattle
+ORD000380,2024-12-13,CUST00380,Face Moisturizer,Health & Beauty,24.15,2,,Indianapolis
+ORD000381,2025-01-13,CUST00381,Shampoo Set,Health & Beauty,18.81,1,,Charlotte
+ORD000382,2024-02-24,CUST00036,USB-C Cable,Electronics,12.98,3,,Tampa
+ORD000383,2024-04-21,CUST00030,Electric Toothbrush,Health & Beauty,49.11,1,,Austin
+ORD000384,2024-05-28,CUST00048,Cotton T-Shirt,Clothing,18.58,1,,Minneapolis
+ORD000385,2024-05-16,CUST00041,Resistance Bands,Health & Beauty,19.75,1,LOYALTY25,Los Angeles
+ORD000386,2024-09-27,CUST00386,Journal Notebook,Books & Media,12.1,5,,Portland
+ORD000387,2024-10-31,,Journal Notebook,Books & Media,13.48,2,,Phoenix
+ORD000388,2024-04-24,CUST00388,Water Bottle,Home & Kitchen,14.08,1,,Orlando
+ORD000389,2024-07-18,CUST00389,Journal Notebook,Books & Media,12.69,1,,San Jose
+ORD000390,2024-08-20,CUST00390,Fiction Bestseller,Books & Media,,2,WELCOME5,Atlanta
+ORD000391,2024-06-03,CUST00391,Hair Dryer,Health & Beauty,41.67,2,SAVE20,Kansas City
+ORD000392,2024-01-29,CUST00392,Water Bottle,Home & Kitchen,14.39,2,,Houston
+ORD000393,2024-02-19,CUST00393,Casual Dress,Clothing,59.76,1,FREESHIP, Atlanta 
+ORD000394,2024-09-08,CUST00394,Lunch Box Set,Home & Kitchen,23.31,1,,San Francisco
+ORD000395,2024-11-17,CUST00395,Electric Toothbrush,Health & Beauty,53.71,3,,San Jose
+ORD000396,2024-09-20,CUST00396,Blender,Home & Kitchen,43.4,2,,Salt Lake City
+ORD000397,2024-09-07,CUST00397,USB-C Cable,Electronics,14.09,1,,Seattle
+ORD000398,2024-03-16,CUST00019,Water Bottle,Home & Kitchen,13.87,1,LOYALTY25,Nashville
+ORD000399,2024-02-15,CUST00399,Cotton T-Shirt,Clothing,18.26,2,,Salt Lake City
+ORD000400,2024-06-06,CUST00400,Sports Shorts,Clothing,27.95,2,,San Diego
+ORD000401,2024-10-17,CUST00013,Food Container Set,Home & Kitchen,32.1,1,,Philadelphia
+ORD000402,2024-06-24,CUST00015,Resistance Bands,Health & Beauty,19.97,1,LOYALTY25,Los Angeles
+ORD000403,2024-08-11,CUST00055,Blender,Home & Kitchen,49.62,3,,Seattle
+ORD000404,2024-08-08,CUST00404,USB-C Cable,Electronics,11.86,5,,Minneapolis
+ORD000405,2024-12-10,CUST00405,Baseball Cap,Clothing,18.59,4,,Portland
+ORD000406,2024-02-12,CUST00406,Python Programming Book,Books & Media,49.24,1,,Phoenix
+ORD000407,2024-09-26,CUST00407,Leather Belt,Clothing,33.9,3,,Nashville
+ORD000408,2024-10-27,CUST00408,Sneakers,Clothing,79.85,1,,Atlanta
+ORD000409,2024-02-13,CUST00409,Audiobook Subscription,Books & Media,10.93,2,,San Jose
+ORD000410,2024-07-08,CUST00410,Journal Notebook,Books & Media,14.27,1,SAVE25,San Diego
+ORD000411,2024-02-04,CUST00411,Audiobook Subscription,Books & Media,10.02,1,HOLIDAY15,Detroit
+ORD000412,2024-09-26,CUST00412,Sneakers,Clothing,81.83,1,,Atlanta
+ORD000413,2024-05-10,CUST00413,Power Bank,Electronics,41.34,1,,Portland
+ORD000414,2024-04-27,CUST00414,Casual Dress,Clothing,-60.17,2,,Indianapolis
+ORD000415,2024-12-07,CUST00415,Sunscreen SPF50,Health & Beauty,16.29,2,SAVE25,Seattle
+ORD000416,2024-12-05,,Wool Sweater,Clothing,56.6,1,,Denver
+ORD000417,2024-02-03,CUST00035,Coffee Maker,Home & Kitchen,57.09,3,,Philadelphia
+ORD000418,2024-02-17,CUST00418,Journal Notebook,Books & Media,13.44,3,,Kansas City
+ORD000419,2024-10-10,CUST00012,Electric Kettle,Home & Kitchen,32.35,3,,Detroit
+ORD000420,2024-08-12,CUST00076,Mechanical Keyboard,Electronics,90.59,2,SUMMER10,Boston
+ORD000421,2024-12-11,CUST00421,Vitamin Supplements,Health & Beauty,26.7,2,,Charlotte
+ORD000422,2024-10-15,CUST00422,Art Supplies Set,Books & Media,31.55,4,,San Francisco
+ORD000423,2024-12-10,CUST00423,Laptop Stand,Electronics,42.92,3,,Atlanta
+ORD000424,2024-02-18,CUST00424,Massage Gun,Health & Beauty,83.79,1,SAVE10,Tampa
+ORD000425,2024-04-05,CUST00084,Electric Kettle,Home & Kitchen,36.29,2,,Atlanta
+ORD000426,2024-08-04,CUST00426,Face Moisturizer,Health & Beauty,20.79,1,,Minneapolis
+ORD000427,2024-05-28,CUST00048,Electric Kettle,Home & Kitchen,32.31,2,,San Francisco
+ORD000428,2024-09-25,CUST00428,Cookbook,Books & Media,30.59,5,FREESHIP,San Antonio
+ORD000429,2024-12-31,CUST00429,Wireless Earbuds,Electronics,79.49,3,,Denver
+ORD000430,2024-05-15,CUST00430,Casual Dress,Clothing,65.26,0,,Raleigh
+ORD000431,2024-02-06,CUST00431,Sneakers,Clothing,80.05,4,,Phoenix
+ORD000432,2024-06-07,CUST00432,Self-Help Book,Books & Media,16.2,1,,San Francisco
+ORD000433,2024-12-17,CUST00433,Python Programming Book,Books & Media,42.19,1,HOLIDAY15,Dallas
+ORD000434,2024-09-06,CUST00434,Blender,Home & Kitchen,44.61,1,SAVE20,Raleigh
+ORD000435,2024-08-16,CUST00435,Knife Set,Home & Kitchen,56.94,3,FREESHIP,Orlando
+ORD000436,2024-09-17,CUST00436,Casual Dress,Clothing,61.89,1,WINTER20,Miami
+ORD000437,2024-06-29,CUST00437,Monitor Light,Electronics,38.15,1,,Philadelphia
+ORD000438,2024-12-15,CUST00039,Art Supplies Set,Books & Media,36.64,4,,Minneapolis
+ORD000439,2024-08-19,CUST00055,Casual Dress,Clothing,56.23,2,SUMMER10,Austin
+ORD000440,2024-09-11,CUST00440,Self-Help Book,Books & Media,13.94,1,,Kansas City
+ORD000441,2024-09-09,CUST00441,Shampoo Set,Health & Beauty,18.44,2,,New York
+ORD000442,,CUST00442,Audiobook Subscription,Books & Media,10.61,1,,Salt Lake City
+ORD000443,2024-03-15,CUST00084,Board Game,Books & Media,31.14,3,,Minneapolis
+ORD000444,2024-02-29,CUST00002,Blender,Home & Kitchen,48.9,2,SAVE10,San Antonio
+ORD000445,,CUST00445,Smartphone Case,Electronics,23.32,1,,Atlanta
+ORD000446,2024-12-03,CUST00446,Art Supplies Set,Books & Media,37.43,2,,Las Vegas
+ORD000447,2024-05-13,CUST00447,Vitamin Supplements,Health & Beauty,24.6,1,FREESHIP,Boston
+ORD000448,2024-09-12,CUST00448,Food Container Set,Home & Kitchen,28.31,3,,Minneapolis
+ORD000449,2024-12-15,CUST00449,Fiction Bestseller,Books & Media,17.4,1,,Orlando
+ORD000450,2024-10-27,CUST00003,Wool Sweater,Clothing,53.42,1,,Indianapolis
+ORD000451,2024-07-15,CUST00451,Shampoo Set,Health & Beauty,20.5,3,,Minneapolis
+ORD000452,2024-11-23,CUST00452,Monitor Light,Electronics,31.78,1,,Columbus
+ORD000453,2024-07-20,CUST00453,Blender,Home & Kitchen,-49.2,1,,Nashville
+ORD000454,2024-12-03,CUST00454,Food Container Set,Home & Kitchen,29.52,1,,Boston
+ORD000455,2024-10-06,CUST00455,Webcam HD,Electronics,67.4,5,SAVE10,Denver
+ORD000456,2024-10-08,,Art Supplies Set,Books & Media,37.69,2,,Raleigh
+ORD000457,2024-04-30,CUST00457,First Aid Kit,Health & Beauty,30.9,2,,Salt Lake City
+ORD000458,2024-10-08,CUST00458,Winter Jacket,Clothing,91.85,2,,Nashville
+ORD000459,2024-09-30,,Wool Sweater,Clothing,56.39,1,FREESHIP,Houston
+ORD000460,2024-12-02,CUST00460,Face Moisturizer,Health & Beauty,22.3,1,,Charlotte
+ORD000461,2024-09-04,CUST00092,Art Supplies Set,Books & Media,32.06,1,,Atlanta
+ORD000462,2024-12-06,CUST00462,Board Game,Books & Media,31.38,1,SUMMER10,Phoenix
+ORD000463,2024-04-05,CUST00463,Denim Jeans,Clothing,51.01,1,WINTER20,San Jose
+ORD000464,2024-11-12,CUST00464,Wool Sweater,Clothing,51.86,3,,Houston
+ORD000465,2024-11-21,CUST00018,Hair Dryer,Health & Beauty,42.08,2,LOYALTY25,Austin
+ORD000466,2024-08-29,CUST00466,USB-C Cable,Electronics,13.53,2,,Charlotte
+ORD000467,2024-10-09,CUST00061,Vitamin Supplements,Health & Beauty,23.09,4,SAVE10,Dallas
+ORD000468,2024-02-08,CUST00468,Webcam HD,Electronics,69.11,1,,Austin
+ORD000469,2024-08-11,CUST00469,Power Bank,Electronics,49.14,1,,San Jose
+ORD000470,2024-11-16,CUST00470,Puzzle 1000pc,Books & Media,21.0,1,SAVE10,Austin
+ORD000471,2024-12-26,CUST00072,Water Bottle,Home & Kitchen,15.19,1,,Portland
+ORD000472,2024-09-03,CUST00060,Shampoo Set,Health & Beauty,19.57,1,HOLIDAY15,Dallas
+ORD000473,2024-10-15,CUST00473,Denim Jeans,Clothing,48.94,1,SUMMER10,Dallas
+ORD000474,2025-01-12,CUST00474,,Home & Kitchen,24.2,1,, New York 
+ORD000475,2025-01-06,CUST00475,Puzzle 1000pc,Books & Media,18.32,3,,Las Vegas
+ORD000476,2024-04-15,CUST00476,Smartphone Case,Electronics,24.8,4,,San Diego
+ORD000477,2024-05-08,CUST00064,Cotton T-Shirt,Clothing,-19.11,3,,San Antonio
+ORD000478,2024-10-31,CUST00478,First Aid Kit,Health & Beauty,28.04,2,,Phoenix
+ORD000479,2025-01-04,CUST00479,Shampoo Set,Health & Beauty,19.68,3,VIP40,Tampa
+ORD000480,2024-09-25,CUST00480,Bluetooth Speaker,Electronics,-45.46,3,,Austin
+ORD000481,2024-02-23,CUST00481,Air Fryer,Home & Kitchen,86.92,1,,New York
+ORD000482,2024-07-08,CUST00482,Leather Belt,Clothing,37.05,4,,Minneapolis
+ORD000483,2025-01-05,CUST00017,Mechanical Keyboard,Electronics,81.98,2,,Houston
+ORD000484,2024-12-18,CUST00484,Art Supplies Set,Books & Media,34.74,1,,Houston
+ORD000485,2024-02-19,CUST00485,Electric Kettle,Home & Kitchen,32.37,2,,Atlanta
+ORD000486,2024-07-17,CUST00486,Resistance Bands,Health & Beauty,18.58,1,,Seattle
+ORD000487,2024-07-10,CUST00026,Blender,Home & Kitchen,44.53,2,,Miami
+ORD000488,,CUST00488,Bluetooth Speaker,Electronics,,1,HOLIDAY15,Raleigh
+ORD000489,2024-07-17,CUST00015,Water Bottle,Home & Kitchen,14.81,2,,Seattle
+ORD000490,2024-04-16,CUST00023,Denim Jeans,Clothing,45.2,2,,Salt Lake City
+ORD000491,2024-11-30,CUST00491,Smartphone Case,Electronics,23.21,4,,San Antonio
+ORD000492,2024-10-16,CUST00020,Winter Jacket,Clothing,91.06,2,,Columbus
+ORD000493,2024-08-01,CUST00493,Electric Toothbrush,Health & Beauty,49.98,1,,Seattle
+ORD000494,2024-05-01,CUST00026,Cookbook,Books & Media,29.37,1,,Detroit
+ORD000495,2024-02-06,,Electric Toothbrush,Health & Beauty,49.25,1,,Salt Lake City
+ORD000496,2024-09-28,CUST00496,Laptop Stand,Electronics,43.4,1,SAVE10,Las Vegas
+ORD000497,2024-03-26,CUST00497,Shampoo Set,Health & Beauty,17.12,1,, Salt Lake City 
+ORD000498,2024-08-06,CUST00093,Knife Set,Home & Kitchen,52.06,2,,Miami
+ORD000499,2024-09-02,CUST00499,Webcam HD,Electronics,-64.94,3,,Raleigh
+ORD000500,2024-10-17,CUST00076,Power Bank,Electronics,47.56,4,FLASH30,Detroit
+ORD000501,2024-04-21,CUST00501,Casual Dress,Clothing,65.53,2,,Philadelphia
+ORD000502,2024-06-09,CUST00038,Yoga Mat,Health & Beauty,29.72,1,FLASH30,Columbus
+ORD000503,2024-04-30,CUST00027,Running Shoes,Clothing,95.71,2,WINTER20, San Jose 
+ORD000504,2024-05-21,CUST00504,Hair Dryer,Health & Beauty,39.67,2,,San Jose
+ORD000505,2024-08-15,CUST00080,Board Game,Books & Media,29.3,2,,Houston
+ORD000506,2025-01-07,CUST00506,Knife Set,Home & Kitchen,54.01,2,FLASH30,Chicago
+ORD000507,2024-12-08,CUST00507,Art Supplies Set,Books & Media,33.9,1,SAVE10,New York
+ORD000508,2025-01-15,CUST00508,Knife Set,Home & Kitchen,58.51,3,SAVE10,Minneapolis
+ORD000509,2024-07-17,CUST00092,Monitor Light,Electronics,33.0,2,,Salt Lake City
+ORD000510,2024-07-27,CUST00510,Lunch Box Set,Home & Kitchen,27.03,1,SAVE10,New York
+ORD000511,2024-04-10,CUST00066,Webcam HD,Electronics,67.51,2,,San Francisco
+ORD000512,2024-08-02,CUST00029,Laptop Stand,Electronics,41.19,1,SAVE25,Boston
+ORD000513,2024-03-04,CUST00513,Fiction Bestseller,Books & Media,16.42,2,,austin
+ORD000514,2024-09-29,CUST00514,Bluetooth Speaker,Electronics,45.2,2,SAVE25,Raleigh
+ORD000515,2024-05-16,CUST00515,Hair Dryer,Health & Beauty,41.9,1,FREESHIP,Salt Lake City
+ORD000516,2024-05-19,CUST00007,Kitchen Scale,Home & Kitchen,20.42,1,,Miami
+ORD000517,2024-04-13,CUST00517,Kitchen Scale,Home & Kitchen,20.02,1,,Philadelphia
+ORD000518,2024-09-18,CUST00047,Art Supplies Set,Books & Media,32.67,1,,Raleigh
+ORD000519,,CUST00519,Food Container Set,Home & Kitchen,31.35,1,,Miami
+ORD000520,2024-09-28,CUST00520,Baseball Cap,Clothing,17.65,1,,Raleigh
+ORD000521,2024-10-31,CUST00098,Self-Help Book,Books & Media,15.8,2,,Charlotte
+ORD000522,2024-07-19,CUST00522,USB-C Cable,Electronics,12.37,1,,Dallas
+ORD000523,2025-01-11,CUST00523,Monitor Light,Electronics,37.86,3,VIP40,Dallas
+ORD000524,2024-03-01,CUST00074,Sneakers,Clothing,76.29,1,,charlotte
+ORD000525,2024-08-23,CUST00048,Air Fryer,Home & Kitchen,84.55,1,,Miami
+ORD000526,2024-08-28,CUST00526,Yoga Mat,Health & Beauty,32.2,1,VIP40,Houston
+ORD000527,2024-01-19,CUST00527,Smartphone Case,Electronics,23.55,2,,Portland
+ORD000528,2024-06-25,CUST00528,Running Shoes,Clothing,87.8,0,,Austin
+ORD000529,2024-10-13,CUST00090,,Home & Kitchen,24.75,2,,Portland
+ORD000530,2024-06-30,CUST00530,Electric Kettle,Home & Kitchen,34.88,2,,Seattle
+ORD000531,2024-04-24,CUST00531,First Aid Kit,Health & Beauty,31.7,2,HOLIDAY15,Salt Lake City
+ORD000532,2024-10-18,CUST00028,Blender,Home & Kitchen,42.36,5,FLASH30,Indianapolis
+ORD000533,2024-12-05,CUST00533,Webcam HD,Electronics,75.2,4,,Minneapolis
+ORD000534,,CUST00534,Water Bottle,Home & Kitchen,13.84,1,LOYALTY25,Detroit
+ORD000535,2024-02-16,CUST00535,,Home & Kitchen,25.2,1,,Orlando
+ORD000536,2024-06-15,CUST00536,Board Game,Books & Media,27.88,1,,Columbus
+ORD000537,2024-09-16,CUST00537,Knife Set,Home & Kitchen,52.7,4,,Austin
+ORD000538,2024-09-21,CUST00538,Sneakers,Clothing,87.85,2,,Orlando
+ORD000539,2024-10-22,CUST00539,Lunch Box Set,Home & Kitchen,26.25,2,,Columbus
+ORD000540,2024-04-25,CUST00540,Webcam HD,Electronics,73.15,2,,Columbus
+ORD000541,2024-02-11,CUST00066,Casual Dress,Clothing,59.2,1,,San Diego
+ORD000542,2024-12-24,CUST00542,Art Supplies Set,Books & Media,33.42,2,,Houston
+ORD000543,,CUST00543,Resistance Bands,Health & Beauty,19.53,5,,San Jose
+ORD000544,2024-10-26,CUST00544,Hair Dryer,Health & Beauty,36.5,3,,Kansas City
+ORD000545,2024-10-26,CUST00545,Denim Jeans,Clothing,45.38,2,,Chicago
+ORD000546,2024-12-17,CUST00039,Monitor Light,Electronics,37.82,1,,Phoenix
+ORD000547,2024-02-07,CUST00025,Water Bottle,Home & Kitchen,16.06,1,SUMMER10,San Antonio
+ORD000548,2024-09-05,CUST00033,Fiction Bestseller,Books & Media,17.11,1,,Tampa
+ORD000549,,CUST00549,Face Moisturizer,Health & Beauty,21.05,1,SUMMER10,Boston
+ORD000550,2024-07-27,CUST00550,Cutting Board,Home & Kitchen,25.07,2,SUMMER10,Raleigh

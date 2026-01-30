@@ -1,0 +1,98 @@
+[
+  {
+    "coupon_code": "SAVE10",
+    "discount_percent": 10,
+    "description": "Standard 10% discount for all customers",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 50
+  },
+  {
+    "coupon_code": "SAVE15",
+    "discount_percent": 15,
+    "description": "Weekend special 15% off",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 0
+  },
+  {
+    "coupon_code": "SAVE20",
+    "discount_percent": 20,
+    "description": "Monthly newsletter subscriber discount",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 50
+  },
+  {
+    "coupon_code": "SAVE25",
+    "discount_percent": 25,
+    "description": "Seasonal sale 25% off",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 50
+  },
+  {
+    "coupon_code": "WELCOME5",
+    "discount_percent": 5,
+    "description": "New customer welcome discount",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 50
+  },
+  {
+    "coupon_code": "FLASH30",
+    "discount_percent": 30,
+    "description": "Flash sale limited time offer",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 50
+  },
+  {
+    "coupon_code": "VIP40",
+    "discount_percent": 40,
+    "description": "VIP member exclusive discount",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 100
+  },
+  {
+    "coupon_code": "HOLIDAY15",
+    "discount_percent": 15,
+    "description": "Holiday season special",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 25
+  },
+  {
+    "coupon_code": "SUMMER10",
+    "discount_percent": 10,
+    "description": "Summer clearance discount",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 50
+  },
+  {
+    "coupon_code": "WINTER20",
+    "discount_percent": 20,
+    "description": "Winter promotion discount",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 0
+  },
+  {
+    "coupon_code": "FREESHIP",
+    "discount_percent": 0,
+    "description": "Free shipping promotion",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 25
+  },
+  {
+    "coupon_code": "LOYALTY25",
+    "discount_percent": 25,
+    "description": "Loyalty program member discount",
+    "valid_from": "2024-01-01",
+    "valid_until": "2025-12-31",
+    "min_purchase": 0
+  }
+]
